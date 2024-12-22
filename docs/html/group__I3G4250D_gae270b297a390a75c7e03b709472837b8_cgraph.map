@@ -1,0 +1,5 @@
+<map id="i3g4250d_int_on_threshold_conf_set" name="i3g4250d_int_on_threshold_conf_set">
+<area shape="rect" id="Node000001" title="Configure the interrupt threshold sign.[set]." alt="" coords="5,5,203,45"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="251,13,401,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,23,237,23,237,28,203,28"/>
+</map>

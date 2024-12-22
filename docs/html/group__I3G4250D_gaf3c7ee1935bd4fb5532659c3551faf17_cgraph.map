@@ -1,0 +1,5 @@
+<map id="i3g4250d_self_test_get" name="i3g4250d_self_test_get">
+<area shape="rect" id="Node000001" title="Angular rate sensor self&#45;test enable. [get]." alt="" coords="5,5,179,31"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="227,5,373,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,15,213,15,213,21,179,21"/>
+</map>

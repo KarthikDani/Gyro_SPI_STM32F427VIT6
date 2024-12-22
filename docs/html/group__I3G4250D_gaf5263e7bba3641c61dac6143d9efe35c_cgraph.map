@@ -1,0 +1,7 @@
+<map id="i3g4250d_lp_bandwidth_set" name="i3g4250d_lp_bandwidth_set">
+<area shape="rect" id="Node000001" title="Lowpass filter bandwidth selection.[set]." alt="" coords="5,31,208,56"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="258,5,405,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,29,244,25,244,30,209,35"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="256,55,407,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,52,243,55,242,61,208,57"/>
+</map>

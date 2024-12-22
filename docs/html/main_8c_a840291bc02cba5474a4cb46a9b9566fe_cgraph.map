@@ -1,0 +1,32 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="The application entry point." alt="" coords="5,235,60,260"/>
+<area shape="rect" id="Node000002" href="$main_8h.html#a1730ffe1e560465665eb47d9264826f9" title=" " alt="" coords="156,5,267,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,234,36,197,48,144,70,89,86,64,106,41,123,30,141,22,143,27,125,35,110,45,90,67,75,92,53,146,42,197,37,235"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Dataoutput.html#ga0adb7c94292e8cbd803c32fc43f43be7" title="Angular rate sensor. The value is expressed as a 16&#45;bit word in two’s complement.[get]." alt="" coords="126,55,297,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="35,233,57,172,78,136,106,105,113,100,116,105,110,109,83,140,62,175,40,235"/>
+<area shape="rect" id="Node000005" href="$group__I3G4250D__data__generation.html#ga29886bedfc8905a4f25faac0e7d80ff0" title="Accelerometer data rate selection.[set]." alt="" coords="122,235,301,260"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="60,245,108,245,108,250,60,250"/>
+<area shape="rect" id="Node000007" href="$group__I3G4250D__common.html#ga721c05a4e2e2a4f9c339003e215376a0" title="Device Who amI.[get]." alt="" coords="122,120,301,145"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="39,233,65,194,84,173,107,156,121,148,123,153,109,160,88,177,69,198,43,236"/>
+<area shape="rect" id="Node000008" href="$group__I3G4250D__filters.html#ga2ea110a179c89deb62a3259f114caa45" title="Out/FIFO selection path. [set]." alt="" coords="120,284,303,309"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="61,254,109,270,139,278,138,283,107,275,59,260"/>
+<area shape="rect" id="Node000009" href="$group__I3G4250D__data__generation.html#gaeeb0da1558d8b80f80b1e4ba457401f6" title="Accelerometer new data available.[get]." alt="" coords="137,170,286,210"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="60,236,135,212,136,217,61,241"/>
+<area shape="rect" id="Node000010" href="$group__I3G4250D__Sensitivity.html#ga4697828e6eca707bafed9493ed8bdb54" title=" " alt="" coords="118,383,305,423"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="41,259,64,313,84,343,110,369,117,374,114,379,106,373,80,346,60,315,36,261"/>
+<area shape="rect" id="Node000011" href="$group__I3G4250D__filters.html#gaea8b6f487aa9fce5f846ced462dfd4d4" title="High&#45;pass filter bandwidth selection.[set]." alt="" coords="108,333,315,359"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="45,258,72,290,109,320,123,326,120,331,107,324,68,293,41,262"/>
+<area shape="rect" id="Node000012" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title=" " alt="" coords="134,448,289,473"/>
+<area shape="poly" id="edge18_Node000001_Node000012" title=" " alt="" coords="38,260,43,295,55,342,76,391,91,414,110,433,123,442,120,447,106,437,87,417,72,394,50,343,38,296,32,260"/>
+<area shape="rect" id="Node000004" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="365,207,511,232"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,93,316,105,347,126,375,150,419,195,416,198,371,153,343,130,313,110,288,98"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="301,234,351,227,351,233,302,239"/>
+<area shape="rect" id="Node000006" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="363,284,513,309"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="271,257,366,278,365,284,270,263"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="274,143,316,155,363,176,404,198,402,202,360,181,314,161,272,148"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="274,281,314,270,398,236,400,241,316,275,275,287"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="303,294,349,294,349,299,303,299"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="286,197,351,205,350,211,286,202"/>
+<area shape="poly" id="edge16_Node000011_Node000004" title=" " alt="" coords="288,331,313,320,328,309,338,297,361,271,404,238,407,242,364,275,342,301,332,313,316,324,290,336"/>
+<area shape="poly" id="edge17_Node000011_Node000006" title=" " alt="" coords="270,331,365,310,366,315,271,336"/>
+</map>

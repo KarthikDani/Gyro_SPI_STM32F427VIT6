@@ -1,0 +1,165 @@
+\doxysection{i3g4250d\+\_\+reg.\+c File Reference}
+\hypertarget{i3g4250d__reg_8c}{}\label{i3g4250d__reg_8c}\index{i3g4250d\_reg.c@{i3g4250d\_reg.c}}
+
+
+I3\+G4250D driver file.  
+
+
+{\ttfamily \#include "{}i3g4250d\+\_\+reg.\+h"{}}\newline
+Include dependency graph for i3g4250d\+\_\+reg.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{i3g4250d__reg_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7}{i3g4250d\+\_\+angular\+\_\+rate\+\_\+raw\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, int16\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor. The value is expressed as a 16-\/bit word in two’s complement.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218}{i3g4250d\+\_\+boot\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Reboot memory content. Reload the calibration parameters.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530}{i3g4250d\+\_\+boot\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Reboot memory content. Reload the calibration parameters.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea}{i3g4250d\+\_\+data\+\_\+format\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Big/\+Little Endian data selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d}{i3g4250d\+\_\+data\+\_\+format\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Big/\+Little Endian data selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_ga62657d981cb94cc9b6a54537bf9bd7a1}{i3g4250d\+\_\+data\+\_\+rate\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaabfac918fec082f8b4e3abd2a860854a}{i3g4250d\+\_\+dr\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Accelerometer data rate selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_ga29886bedfc8905a4f25faac0e7d80ff0}{i3g4250d\+\_\+data\+\_\+rate\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaabfac918fec082f8b4e3abd2a860854a}{i3g4250d\+\_\+dr\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Accelerometer data rate selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0}{i3g4250d\+\_\+device\+\_\+id\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}buff)
+\begin{DoxyCompactList}\small\item\em Device Who amI.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6}{i3g4250d\+\_\+fifo\+\_\+data\+\_\+level\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO stored data level\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b}{i3g4250d\+\_\+fifo\+\_\+empty\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFOemptybit.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFOenable.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em FIFOenable.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO mode selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em FIFO mode selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929}{i3g4250d\+\_\+fifo\+\_\+ovr\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Overrun bit status.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO watermark level selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em FIFO watermark level selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f}{i3g4250d\+\_\+fifo\+\_\+wtm\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Watermark status\+:\mbox{[}get\mbox{]} 0\+: FIFO filling is lower than WTM level; 1\+: FIFO filling is equal or higher than WTM level) \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gad37c250f58882d1b4f9251a14a1874b9}{i3g4250d\+\_\+filter\+\_\+path\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga57e648d6a438817a717976b9240087f4}{i3g4250d\+\_\+out\+\_\+sel\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Out/\+FIFO selection path. \mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga6900ccfe006fb3f39c785ffa86af3182}{i3g4250d\+\_\+filter\+\_\+path\+\_\+internal\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaa7629aebdea549800697756dfb844a44}{i3g4250d\+\_\+int1\+\_\+sel\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Interrupt generator selection path.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga2c7d1c02b1054772bc08f4a5b180842e}{i3g4250d\+\_\+filter\+\_\+path\+\_\+internal\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaa7629aebdea549800697756dfb844a44}{i3g4250d\+\_\+int1\+\_\+sel\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Interrupt generator selection path.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga2ea110a179c89deb62a3259f114caa45}{i3g4250d\+\_\+filter\+\_\+path\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga57e648d6a438817a717976b9240087f4}{i3g4250d\+\_\+out\+\_\+sel\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Out/\+FIFO selection path. \mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_gaeeb0da1558d8b80f80b1e4ba457401f6}{i3g4250d\+\_\+flag\+\_\+data\+\_\+ready\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Accelerometer new data available.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+float\+\_\+t \mbox{\hyperlink{group__I3G4250D__Sensitivity_ga4697828e6eca707bafed9493ed8bdb54}{i3g4250d\+\_\+from\+\_\+fs245dps\+\_\+to\+\_\+mdps}} (int16\+\_\+t lsb)
+\item 
+float\+\_\+t \mbox{\hyperlink{group__I3G4250D__Sensitivity_ga5ede4163c44561a55e5bd03ca3a182ab}{i3g4250d\+\_\+from\+\_\+lsb\+\_\+to\+\_\+celsius}} (int16\+\_\+t lsb)
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_gafe3b90ea6d80bdb2e20e19107e2ae2e5}{i3g4250d\+\_\+full\+\_\+scale\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gace05958f53161c8ed3cd124bb36c3ace}{i3g4250d\+\_\+fs\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Gyroscope full-\/scale selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_ga7fe73d8e7381a481de34b8ed71151ed8}{i3g4250d\+\_\+full\+\_\+scale\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gace05958f53161c8ed3cd124bb36c3ace}{i3g4250d\+\_\+fs\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Gyroscope full-\/scale selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gaeb52e883603ed75a2dea22154a88f5b2}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaec0290986ac9f120f128e5f5e6eca968}{i3g4250d\+\_\+hpcf\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em High-\/pass filter bandwidth selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gaea8b6f487aa9fce5f846ced462dfd4d4}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gaec0290986ac9f120f128e5f5e6eca968}{i3g4250d\+\_\+hpcf\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em High-\/pass filter bandwidth selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gaadf50a28c6dd93ab26da0ec757285484}{i3g4250d\+\_\+hp\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga6962acb8223e73da46663a26d5b50cac}{i3g4250d\+\_\+hpm\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em High-\/pass filter mode selection. \mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gaeaff13e513b0d5fae8c345b32a38f86d}{i3g4250d\+\_\+hp\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga6962acb8223e73da46663a26d5b50cac}{i3g4250d\+\_\+hpm\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em High-\/pass filter mode selection. \mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga435f8ea69f16810fabc6f42e6bde126a}{i3g4250d\+\_\+hp\+\_\+reference\+\_\+value\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Reference value for high-\/pass filter.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga43403a37a9d67ba1f6fe6ea0b8cd6d3b}{i3g4250d\+\_\+hp\+\_\+reference\+\_\+value\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Reference value for high-\/pass filter.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_gab2d6875def6dbbb0d0d689da3dda4566}{i3g4250d\+\_\+int\+\_\+notification\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga49df746959c180ee86ffb72a920f2893}{i3g4250d\+\_\+lir\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Latched/pulsed interrupt.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2265a50634bb7dce96c71fb0441c7c30}{i3g4250d\+\_\+int\+\_\+notification\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga49df746959c180ee86ffb72a920f2893}{i3g4250d\+\_\+lir\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Latched/pulsed interrupt.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___ga513b2930c5e8ba261894ee447867f1af}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+conf\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int1__cfg__t}{i3g4250d\+\_\+int1\+\_\+cfg\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Configure the interrupt threshold sign.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gae270b297a390a75c7e03b709472837b8}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+conf\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int1__cfg__t}{i3g4250d\+\_\+int1\+\_\+cfg\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Configure the interrupt threshold sign.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gaec84beea71a110155623ae48c8bb05a3}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+dur\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Durationvalue.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gaf82741c7a2a4bae445c18de51ea321d8}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+dur\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Durationvalue.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gadff74c911569f950e9bc92d7bfe20dbe}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga717b2c7d12037cbfe6dd6adec0e780c2}{i3g4250d\+\_\+and\+\_\+or\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em AND/\+OR combination of interrupt events.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___ga2a8ec8a3686fb06a3674cde6ee4d5325}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga717b2c7d12037cbfe6dd6adec0e780c2}{i3g4250d\+\_\+and\+\_\+or\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em AND/\+OR combination of interrupt events.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gab905fa50ba5352f4e0273a0d5f15502c}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+src\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int1__src__t}{i3g4250d\+\_\+int1\+\_\+src\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em int\+\_\+on\+\_\+threshold\+\_\+src\+: \mbox{[}get\mbox{]} \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gaba653a00934ca72581874ff6d44e2d55}{i3g4250d\+\_\+int\+\_\+x\+\_\+threshold\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on X.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___ga94c24e19af6940e3c9f515c8274a9439}{i3g4250d\+\_\+int\+\_\+x\+\_\+threshold\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on X.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___ga32a25100d210765150b6a09c74776c35}{i3g4250d\+\_\+int\+\_\+y\+\_\+threshold\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on Y.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___ga3b4b2b76ac91d965fbf1eea4306a2b92}{i3g4250d\+\_\+int\+\_\+y\+\_\+threshold\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on Y.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gaf9bd3ab0d04cf94af8403d4000d3657f}{i3g4250d\+\_\+int\+\_\+z\+\_\+threshold\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on Z.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D___gae7f577861360ef7118020362341faa57}{i3g4250d\+\_\+int\+\_\+z\+\_\+threshold\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint16\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Interrupt threshold on Z.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_ga3be17bd9c9634af201fdeb7f13396ba6}{i3g4250d\+\_\+lp\+\_\+bandwidth\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga0839478bdde3338c8d3b126bc647ce51}{i3g4250d\+\_\+bw\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Lowpass filter bandwidth selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__filters_gaf5263e7bba3641c61dac6143d9efe35c}{i3g4250d\+\_\+lp\+\_\+bandwidth\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga0839478bdde3338c8d3b126bc647ce51}{i3g4250d\+\_\+bw\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Lowpass filter bandwidth selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga39d87e94d4cad80fbebbe32c3249833c}{i3g4250d\+\_\+pin\+\_\+int1\+\_\+route\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int1__route__t}{i3g4250d\+\_\+int1\+\_\+route\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Select the signal that need to route on int1 pad.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga1fc0f51251f0aca07cbc87f2629e11ed}{i3g4250d\+\_\+pin\+\_\+int1\+\_\+route\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int1__route__t}{i3g4250d\+\_\+int1\+\_\+route\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Select the signal that need to route on int1 pad.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_gabe23c682c8c73bf3c7fb9d758ef59215}{i3g4250d\+\_\+pin\+\_\+int2\+\_\+route\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int2__route__t}{i3g4250d\+\_\+int2\+\_\+route\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Select the signal that need to route on int2 pad.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga7d4a18917cd293a5bdea6fd6aa4fabf5}{i3g4250d\+\_\+pin\+\_\+int2\+\_\+route\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__int2__route__t}{i3g4250d\+\_\+int2\+\_\+route\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Select the signal that need to route on int2 pad.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga8844001118627853277ddef29b9cb63e}{i3g4250d\+\_\+pin\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga51e8ef9a0a4ba9ed2e51f945891cfc7d}{i3g4250d\+\_\+pp\+\_\+od\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Push-\/pull/open drain selection on interrupt pads.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga56f73effeab04dcce8ab183c4e677401}{i3g4250d\+\_\+pin\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga51e8ef9a0a4ba9ed2e51f945891cfc7d}{i3g4250d\+\_\+pp\+\_\+od\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Push-\/pull/open drain selection on interrupt pads.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2bd7e9a62dce01fdb307b7884d99fb52}{i3g4250d\+\_\+pin\+\_\+polarity\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga84704a524cc5f7ad2f907374815c8a28}{i3g4250d\+\_\+h\+\_\+lactive\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Pin active-\/high/low.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2a93c506cd48ceb2de5775c1c2425f49}{i3g4250d\+\_\+pin\+\_\+polarity\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga84704a524cc5f7ad2f907374815c8a28}{i3g4250d\+\_\+h\+\_\+lactive\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Pin active-\/high/low.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t reg, uint8\+\_\+t \texorpdfstring{$\ast$}{*}data, uint16\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em Read generic device register. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17}{i3g4250d\+\_\+self\+\_\+test\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor self-\/test enable. \mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc}{i3g4250d\+\_\+self\+\_\+test\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor self-\/test enable. \mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em SPI Serial Interface Mode selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em SPI Serial Interface Mode selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__data__generation_ga6383bef083ca3c02d0378cd3b87e3aa0}{i3g4250d\+\_\+status\+\_\+reg\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{structi3g4250d__status__reg__t}{i3g4250d\+\_\+status\+\_\+reg\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em The STATUS\+\_\+\+REG register is read by the primary interface.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d}{i3g4250d\+\_\+temperature\+\_\+raw\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}buff)
+\begin{DoxyCompactList}\small\item\em Temperature data.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t reg, uint8\+\_\+t \texorpdfstring{$\ast$}{*}data, uint16\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em Write generic device register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+I3\+G4250D driver file. 
+
+\begin{DoxyAuthor}{Author}
+Sensors Software Solution Team 
+\end{DoxyAuthor}
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}
+\doxysubsubsection*{\begin{center}\copyright{} Copyright (c) 2021 STMicroelectronics. All rights reserved.\end{center} }
+
+This software component is licensed by ST under BSD 3-\/Clause license, the "{}\+License"{}; You may not use this file except in compliance with the License. You may obtain a copy of the License at\+: opensource.\+org/licenses/\+BSD-\/3-\/\+Clause 

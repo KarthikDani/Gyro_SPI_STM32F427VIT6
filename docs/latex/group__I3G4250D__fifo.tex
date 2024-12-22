@@ -1,0 +1,386 @@
+\doxysubsection{I3\+G4250\+D\+\_\+fifo}
+\hypertarget{group__I3G4250D__fifo}{}\label{group__I3G4250D__fifo}\index{I3G4250D\_fifo@{I3G4250D\_fifo}}
+
+
+This section group all the functions concerning the fifo usage.  
+
+
+Collaboration diagram for I3\+G4250\+D\+\_\+fifo\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{group__I3G4250D__fifo}
+\end{center}
+\end{figure}
+\doxysubsubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6}{i3g4250d\+\_\+fifo\+\_\+data\+\_\+level\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO stored data level\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b}{i3g4250d\+\_\+fifo\+\_\+empty\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFOemptybit.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFOenable.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em FIFOenable.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO mode selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em FIFO mode selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929}{i3g4250d\+\_\+fifo\+\_\+ovr\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Overrun bit status.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em FIFO watermark level selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em FIFO watermark level selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f}{i3g4250d\+\_\+fifo\+\_\+wtm\+\_\+flag\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Watermark status\+:\mbox{[}get\mbox{]} 0\+: FIFO filling is lower than WTM level; 1\+: FIFO filling is equal or higher than WTM level) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This section group all the functions concerning the fifo usage. 
+
+
+
+\doxysubsubsection{Function Documentation}
+\Hypertarget{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6}\label{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_data\_level\_get@{i3g4250d\_fifo\_data\_level\_get}}
+\index{i3g4250d\_fifo\_data\_level\_get@{i3g4250d\_fifo\_data\_level\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_data\_level\_get()}{i3g4250d\_fifo\_data\_level\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+data\+\_\+level\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFO stored data level\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of fss in reg FIFO\+\_\+\+SRC\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__fifo__src__reg__t_a185f7b03868091b0e99ca39dc46667de}{i3g4250d\+\_\+fifo\+\_\+src\+\_\+reg\+\_\+t\+::fss}}, \mbox{\hyperlink{group__I3G4250D_gae2863d883b8a1acc5bfeb9f8dd53aed2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+SRC\+\_\+\+REG}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b}\label{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_empty\_flag\_get@{i3g4250d\_fifo\_empty\_flag\_get}}
+\index{i3g4250d\_fifo\_empty\_flag\_get@{i3g4250d\_fifo\_empty\_flag\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_empty\_flag\_get()}{i3g4250d\_fifo\_empty\_flag\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+empty\+\_\+flag\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFOemptybit.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of empty in reg FIFO\+\_\+\+SRC\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__fifo__src__reg__t_a9c34615f9b5428ba78dfe7bf46acde8a}{i3g4250d\+\_\+fifo\+\_\+src\+\_\+reg\+\_\+t\+::empty}}, \mbox{\hyperlink{group__I3G4250D_gae2863d883b8a1acc5bfeb9f8dd53aed2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+SRC\+\_\+\+REG}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5}\label{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_enable\_get@{i3g4250d\_fifo\_enable\_get}}
+\index{i3g4250d\_fifo\_enable\_get@{i3g4250d\_fifo\_enable\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_enable\_get()}{i3g4250d\_fifo\_enable\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+enable\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFOenable.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of fifo\+\_\+en in reg CTRL\+\_\+\+REG5.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg5__t_a2d2f026c1483cb7ba9587d3a02c600ed}{i3g4250d\+\_\+ctrl\+\_\+reg5\+\_\+t\+::fifo\+\_\+en}}, \mbox{\hyperlink{group__I3G4250D_gad9479d95a9024b86070bf35d415394dc}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG5}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1}\label{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_enable\_set@{i3g4250d\_fifo\_enable\_set}}
+\index{i3g4250d\_fifo\_enable\_set@{i3g4250d\_fifo\_enable\_set}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_enable\_set()}{i3g4250d\_fifo\_enable\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+enable\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFOenable.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of fifo\+\_\+en in reg CTRL\+\_\+\+REG5 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg5__t_a2d2f026c1483cb7ba9587d3a02c600ed}{i3g4250d\+\_\+ctrl\+\_\+reg5\+\_\+t\+::fifo\+\_\+en}}, \mbox{\hyperlink{group__I3G4250D_gad9479d95a9024b86070bf35d415394dc}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG5}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d}\label{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_mode\_get@{i3g4250d\_fifo\_mode\_get}}
+\index{i3g4250d\_fifo\_mode\_get@{i3g4250d\_fifo\_mode\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_mode\_get()}{i3g4250d\_fifo\_mode\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+mode\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFO mode selection.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of fm in reg FIFO\+\_\+\+CTRL\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__fifo__ctrl__reg__t_ab7e74c6a5fb12fce5336b89d42a0244a}{i3g4250d\+\_\+fifo\+\_\+ctrl\+\_\+reg\+\_\+t\+::fm}}, \mbox{\hyperlink{group__I3G4250D_gga4a4351b27dca0b03f0fc317cd4aafb65aa6c09cd3798bba0c22fe1d05390f1d99}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+BYPASS\+\_\+\+MODE}}, \mbox{\hyperlink{group__I3G4250D_gad08cc60971843e4ec0ca2df9f2e86fb2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+CTRL\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D_gga4a4351b27dca0b03f0fc317cd4aafb65a0e4f39c6a7168ab65584759dd8291d80}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+MODE}}, \mbox{\hyperlink{group__I3G4250D_gga4a4351b27dca0b03f0fc317cd4aafb65a21b42dfad3c90a84baf35c3f9d6cd698}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+STREAM\+\_\+\+MODE}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68}\label{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_mode\_set@{i3g4250d\_fifo\_mode\_set}}
+\index{i3g4250d\_fifo\_mode\_set@{i3g4250d\_fifo\_mode\_set}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_mode\_set()}{i3g4250d\_fifo\_mode\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+mode\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga4a4351b27dca0b03f0fc317cd4aafb65}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+t}}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFO mode selection.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of fm in reg FIFO\+\_\+\+CTRL\+\_\+\+REG \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__fifo__ctrl__reg__t_ab7e74c6a5fb12fce5336b89d42a0244a}{i3g4250d\+\_\+fifo\+\_\+ctrl\+\_\+reg\+\_\+t\+::fm}}, \mbox{\hyperlink{group__I3G4250D_gad08cc60971843e4ec0ca2df9f2e86fb2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+CTRL\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929}\label{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_ovr\_flag\_get@{i3g4250d\_fifo\_ovr\_flag\_get}}
+\index{i3g4250d\_fifo\_ovr\_flag\_get@{i3g4250d\_fifo\_ovr\_flag\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_ovr\_flag\_get()}{i3g4250d\_fifo\_ovr\_flag\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+ovr\+\_\+flag\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Overrun bit status.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of ovrn in reg FIFO\+\_\+\+SRC\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_gae2863d883b8a1acc5bfeb9f8dd53aed2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+SRC\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__fifo__src__reg__t_aa8afe1cbd466cd2fb4685b9215dfc8b1}{i3g4250d\+\_\+fifo\+\_\+src\+\_\+reg\+\_\+t\+::ovrn}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd}\label{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_watermark\_get@{i3g4250d\_fifo\_watermark\_get}}
+\index{i3g4250d\_fifo\_watermark\_get@{i3g4250d\_fifo\_watermark\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_watermark\_get()}{i3g4250d\_fifo\_watermark\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFO watermark level selection.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of wtm in reg FIFO\+\_\+\+CTRL\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_gad08cc60971843e4ec0ca2df9f2e86fb2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+CTRL\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__fifo__ctrl__reg__t_afd5ce21026c8c037e00699b96886e70a}{i3g4250d\+\_\+fifo\+\_\+ctrl\+\_\+reg\+\_\+t\+::wtm}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711}\label{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_watermark\_set@{i3g4250d\_fifo\_watermark\_set}}
+\index{i3g4250d\_fifo\_watermark\_set@{i3g4250d\_fifo\_watermark\_set}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_watermark\_set()}{i3g4250d\_fifo\_watermark\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t}]{val }\end{DoxyParamCaption})}
+
+
+
+FIFO watermark level selection.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of wtm in reg FIFO\+\_\+\+CTRL\+\_\+\+REG \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_gad08cc60971843e4ec0ca2df9f2e86fb2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+CTRL\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__fifo__ctrl__reg__t_afd5ce21026c8c037e00699b96886e70a}{i3g4250d\+\_\+fifo\+\_\+ctrl\+\_\+reg\+\_\+t\+::wtm}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f}\label{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f} 
+\index{I3G4250D\_fifo@{I3G4250D\_fifo}!i3g4250d\_fifo\_wtm\_flag\_get@{i3g4250d\_fifo\_wtm\_flag\_get}}
+\index{i3g4250d\_fifo\_wtm\_flag\_get@{i3g4250d\_fifo\_wtm\_flag\_get}!I3G4250D\_fifo@{I3G4250D\_fifo}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_fifo\_wtm\_flag\_get()}{i3g4250d\_fifo\_wtm\_flag\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+fifo\+\_\+wtm\+\_\+flag\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Watermark status\+:\mbox{[}get\mbox{]} 0\+: FIFO filling is lower than WTM level; 1\+: FIFO filling is equal or higher than WTM level) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of wtm in reg FIFO\+\_\+\+SRC\+\_\+\+REG.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_gae2863d883b8a1acc5bfeb9f8dd53aed2}{I3\+G4250\+D\+\_\+\+FIFO\+\_\+\+SRC\+\_\+\+REG}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__fifo__src__reg__t_a068d2813db85b7bf96566d3460c56176}{i3g4250d\+\_\+fifo\+\_\+src\+\_\+reg\+\_\+t\+::wtm}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,110 @@
+\doxysubsection{I3\+G4250\+D\+\_\+\+Dataoutput}
+\hypertarget{group__I3G4250D__Dataoutput}{}\label{group__I3G4250D__Dataoutput}\index{I3G4250D\_Dataoutput@{I3G4250D\_Dataoutput}}
+
+
+This section groups all the data output functions.  
+
+
+Collaboration diagram for I3\+G4250\+D\+\_\+\+Dataoutput\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{group__I3G4250D__Dataoutput}
+\end{center}
+\end{figure}
+\doxysubsubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7}{i3g4250d\+\_\+angular\+\_\+rate\+\_\+raw\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, int16\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor. The value is expressed as a 16-\/bit word in two’s complement.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d}{i3g4250d\+\_\+temperature\+\_\+raw\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}buff)
+\begin{DoxyCompactList}\small\item\em Temperature data.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This section groups all the data output functions. 
+
+
+
+\doxysubsubsection{Function Documentation}
+\Hypertarget{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7}\label{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7} 
+\index{I3G4250D\_Dataoutput@{I3G4250D\_Dataoutput}!i3g4250d\_angular\_rate\_raw\_get@{i3g4250d\_angular\_rate\_raw\_get}}
+\index{i3g4250d\_angular\_rate\_raw\_get@{i3g4250d\_angular\_rate\_raw\_get}!I3G4250D\_Dataoutput@{I3G4250D\_Dataoutput}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_angular\_rate\_raw\_get()}{i3g4250d\_angular\_rate\_raw\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+angular\+\_\+rate\+\_\+raw\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{int16\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Angular rate sensor. The value is expressed as a 16-\/bit word in two’s complement.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em buff} & Buffer that stores the data read.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_gabc8e07bcc7a93af12fac65e0cb2def10}{I3\+G4250\+D\+\_\+\+OUT\+\_\+\+X\+\_\+L}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+
+
+Referenced by \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d}\label{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d} 
+\index{I3G4250D\_Dataoutput@{I3G4250D\_Dataoutput}!i3g4250d\_temperature\_raw\_get@{i3g4250d\_temperature\_raw\_get}}
+\index{i3g4250d\_temperature\_raw\_get@{i3g4250d\_temperature\_raw\_get}!I3G4250D\_Dataoutput@{I3G4250D\_Dataoutput}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_temperature\_raw\_get()}{i3g4250d\_temperature\_raw\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+temperature\+\_\+raw\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{buff }\end{DoxyParamCaption})}
+
+
+
+Temperature data.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em buff} & Buffer that stores the data read.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_ga5126fccf787efc50d7479267ff98aab0}{I3\+G4250\+D\+\_\+\+OUT\+\_\+\+TEMP}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d_cgraph}
+\end{center}
+\end{figure}

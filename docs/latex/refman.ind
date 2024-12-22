@@ -1,0 +1,1573 @@
+\begin{theindex}
+
+  \item {\_\_attribute\_\_}
+    \subitem {syscalls.c}, \hyperpage{218}
+  \item {\_\_io\_getchar}
+    \subitem {syscalls.c}, \hyperpage{218}
+  \item {\_\_io\_putchar}
+    \subitem {syscalls.c}, \hyperpage{218}
+  \item {\_\_weak}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {\_close}
+    \subitem {syscalls.c}, \hyperpage{218}
+  \item {\_execve}
+    \subitem {syscalls.c}, \hyperpage{218}
+  \item {\_exit}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_fork}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_fstat}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_getpid}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_isatty}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_kill}
+    \subitem {syscalls.c}, \hyperpage{219}
+  \item {\_link}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_lseek}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_open}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_sbrk}
+    \subitem {sysmem.c}, \hyperpage{222}
+  \item {\_stat}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_times}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_unlink}
+    \subitem {syscalls.c}, \hyperpage{220}
+  \item {\_wait}
+    \subitem {syscalls.c}, \hyperpage{221}
+  \item {\_xor}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{161}
+
+  \indexspace
+
+  \item {address}
+    \subitem {ucf\_line\_t}, \hyperpage{163}
+  \item {address-\/data structure definition}, \hyperpage{130}
+  \item {AHBPrescTable}
+    \subitem {STM32F4xx\_System\_Private\_Variables}, \hyperpage{136}
+  \item {and\_or}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{149}
+  \item {APBPrescTable}
+    \subitem {STM32F4xx\_System\_Private\_Variables}, \hyperpage{136}
+  \item {assert\_param}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{183}
+
+  \indexspace
+
+  \item {bit0}
+    \subitem {bitwise\_t}, \hyperpage{141}
+  \item {bit1}
+    \subitem {bitwise\_t}, \hyperpage{141}
+  \item {bit2}
+    \subitem {bitwise\_t}, \hyperpage{141}
+  \item {bit3}
+    \subitem {bitwise\_t}, \hyperpage{141}
+  \item {bit4}
+    \subitem {bitwise\_t}, \hyperpage{142}
+  \item {bit5}
+    \subitem {bitwise\_t}, \hyperpage{142}
+  \item {bit6}
+    \subitem {bitwise\_t}, \hyperpage{142}
+  \item {bit7}
+    \subitem {bitwise\_t}, \hyperpage{142}
+  \item {bitwise}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {bitwise\_t}, \hyperpage{141}
+    \subitem {bit0}, \hyperpage{141}
+    \subitem {bit1}, \hyperpage{141}
+    \subitem {bit2}, \hyperpage{141}
+    \subitem {bit3}, \hyperpage{141}
+    \subitem {bit4}, \hyperpage{142}
+    \subitem {bit5}, \hyperpage{142}
+    \subitem {bit6}, \hyperpage{142}
+    \subitem {bit7}, \hyperpage{142}
+  \item {ble}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{145}
+  \item {boot}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+  \item {BOOT\_TIME}
+    \subitem {main.c}, \hyperpage{208}
+  \item {BusFault\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {bw}
+    \subitem {i3g4250d\_ctrl\_reg1\_t}, \hyperpage{142}
+  \item {byte}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+
+  \indexspace
+
+  \item {CMSIS}, \hyperpage{133}
+  \item {ctrl\_reg1}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {ctrl\_reg2}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {ctrl\_reg3}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {ctrl\_reg4}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {ctrl\_reg5}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+
+  \indexspace
+
+  \item {d}
+    \subitem {i3g4250d\_int1\_duration\_t}, \hyperpage{150}
+  \item {data}
+    \subitem {ucf\_line\_t}, \hyperpage{163}
+  \item {DATA\_CACHE\_ENABLE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{183}
+  \item {DebugMon\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {definitions}, \hyperpage{128}
+    \subitem {DRV\_BIG\_ENDIAN}, \hyperpage{128}
+    \subitem {DRV\_BYTE\_ORDER}, \hyperpage{128}
+    \subitem {DRV\_LITTLE\_ENDIAN}, \hyperpage{129}
+  \item {DP83848\_PHY\_ADDRESS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {dr}
+    \subitem {i3g4250d\_ctrl\_reg1\_t}, \hyperpage{142}
+  \item {DRV\_BIG\_ENDIAN}
+    \subitem {definitions}, \hyperpage{128}
+  \item {DRV\_BYTE\_ORDER}
+    \subitem {definitions}, \hyperpage{128}
+  \item {DRV\_LITTLE\_ENDIAN}
+    \subitem {definitions}, \hyperpage{129}
+
+  \indexspace
+
+  \item {empty}
+    \subitem {i3g4250d\_fifo\_src\_reg\_t}, \hyperpage{148}
+  \item {environ}
+    \subitem {syscalls.c}, \hyperpage{221}
+  \item {Error\_Handler}
+    \subitem {main.h}, \hyperpage{180}
+  \item {ETH\_RX\_BUF\_SIZE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {ETH\_RXBUFNB}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {ETH\_TX\_BUF\_SIZE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {ETH\_TXBUFNB}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {EXTERNAL\_CLOCK\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+
+  \indexspace
+
+  \item {fifo\_ctrl\_reg}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{159}
+  \item {fifo\_en}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+  \item {fifo\_src\_reg}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {fm}
+    \subitem {i3g4250d\_fifo\_ctrl\_reg\_t}, \hyperpage{148}
+  \item {fs}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{145}
+  \item {fss}
+    \subitem {i3g4250d\_fifo\_src\_reg\_t}, \hyperpage{148}
+
+  \indexspace
+
+  \item {GYRO\_CS\_OUT\_GPIO\_Port}
+    \subitem {main.h}, \hyperpage{180}
+  \item {GYRO\_CS\_OUT\_Pin}
+    \subitem {main.h}, \hyperpage{180}
+
+  \indexspace
+
+  \item {h\_lactive}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+  \item {HAL\_CORTEX\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {HAL\_DMA\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {HAL\_EXTI\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{184}
+  \item {HAL\_FLASH\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_GPIO\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_MspInit}
+    \subitem {stm32f4xx\_hal\_msp.c}, \hyperpage{212}
+  \item {HAL\_PWR\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_RCC\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_SPI\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_SPI\_MspDeInit}
+    \subitem {stm32f4xx\_hal\_msp.c}, \hyperpage{212}
+  \item {HAL\_SPI\_MspInit}
+    \subitem {stm32f4xx\_hal\_msp.c}, \hyperpage{213}
+  \item {HAL\_UART\_MODULE\_ENABLED}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HAL\_UART\_MspDeInit}
+    \subitem {stm32f4xx\_hal\_msp.c}, \hyperpage{213}
+  \item {HAL\_UART\_MspInit}
+    \subitem {stm32f4xx\_hal\_msp.c}, \hyperpage{213}
+  \item {handle}
+    \subitem {stmdev\_ctx\_t}, \hyperpage{162}
+  \item {HardFault\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {hpcf}
+    \subitem {i3g4250d\_ctrl\_reg2\_t}, \hyperpage{143}
+  \item {hpen}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+  \item {hpm}
+    \subitem {i3g4250d\_ctrl\_reg2\_t}, \hyperpage{143}
+  \item {HSE\_STARTUP\_TIMEOUT}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+  \item {HSE\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{185}
+    \subitem {STM32F4xx\_System\_Private\_Includes}, \hyperpage{135}
+  \item {HSI\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+    \subitem {STM32F4xx\_System\_Private\_Includes}, \hyperpage{135}
+  \item {hspi1}
+    \subitem {main.c}, \hyperpage{211}
+  \item {huart2}
+    \subitem {main.c}, \hyperpage{211}
+
+  \indexspace
+
+  \item {i1\_boot}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {i3g4250d\_int1\_route\_t}, \hyperpage{151}
+  \item {i1\_int1}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {i3g4250d\_int1\_route\_t}, \hyperpage{151}
+  \item {i2\_drdy}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {i3g4250d\_int2\_route\_t}, \hyperpage{156}
+  \item {i2\_empty}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {i3g4250d\_int2\_route\_t}, \hyperpage{156}
+  \item {i2\_orun}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {i3g4250d\_int2\_route\_t}, \hyperpage{156}
+  \item {i2\_wtm}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{145}
+    \subitem {i3g4250d\_int2\_route\_t}, \hyperpage{156}
+  \item {I3G4250D}, \hyperpage{7}
+    \subitem {\_\_weak}, \hyperpage{14}
+    \subitem {I3G4250D\_2000dps}, \hyperpage{18}
+    \subitem {I3G4250D\_245dps}, \hyperpage{18}
+    \subitem {I3G4250D\_500dps}, \hyperpage{18}
+    \subitem {I3G4250D\_ACTIVE\_HIGH}, \hyperpage{18}
+    \subitem {I3G4250D\_ACTIVE\_LOW}, \hyperpage{18}
+    \subitem {i3g4250d\_and\_or\_t}, \hyperpage{16}
+    \subitem {i3g4250d\_angular\_rate\_raw\_get}, \hyperpage{20}
+    \subitem {I3G4250D\_AUX\_LSB\_AT\_LOW\_ADD}, \hyperpage{17}
+    \subitem {I3G4250D\_AUX\_MSB\_AT\_LOW\_ADD}, \hyperpage{17}
+    \subitem {i3g4250d\_axis\_x\_data\_get}, \hyperpage{21}
+    \subitem {i3g4250d\_axis\_x\_data\_set}, \hyperpage{21}
+    \subitem {i3g4250d\_axis\_y\_data\_get}, \hyperpage{21}
+    \subitem {i3g4250d\_axis\_y\_data\_set}, \hyperpage{21}
+    \subitem {i3g4250d\_axis\_z\_data\_get}, \hyperpage{21}
+    \subitem {i3g4250d\_axis\_z\_data\_set}, \hyperpage{22}
+    \subitem {i3g4250d\_ble\_t}, \hyperpage{16}
+    \subitem {i3g4250d\_boot\_get}, \hyperpage{22}
+    \subitem {i3g4250d\_boot\_set}, \hyperpage{22}
+    \subitem {i3g4250d\_bw\_t}, \hyperpage{17}
+    \subitem {I3G4250D\_CTRL\_REG1}, \hyperpage{14}
+    \subitem {I3G4250D\_CTRL\_REG2}, \hyperpage{14}
+    \subitem {I3G4250D\_CTRL\_REG3}, \hyperpage{14}
+    \subitem {I3G4250D\_CTRL\_REG4}, \hyperpage{14}
+    \subitem {I3G4250D\_CTRL\_REG5}, \hyperpage{14}
+    \subitem {I3G4250D\_CUT\_OFF\_HIGH}, \hyperpage{17}
+    \subitem {I3G4250D\_CUT\_OFF\_LOW}, \hyperpage{17}
+    \subitem {I3G4250D\_CUT\_OFF\_MEDIUM}, \hyperpage{17}
+    \subitem {I3G4250D\_CUT\_OFF\_VERY\_HIGH}, \hyperpage{17}
+    \subitem {i3g4250d\_data\_format\_get}, \hyperpage{23}
+    \subitem {i3g4250d\_data\_format\_set}, \hyperpage{24}
+    \subitem {i3g4250d\_data\_rate\_get}, \hyperpage{24}
+    \subitem {i3g4250d\_data\_rate\_set}, \hyperpage{25}
+    \subitem {i3g4250d\_device\_id\_get}, \hyperpage{26}
+    \subitem {i3g4250d\_dr\_t}, \hyperpage{17}
+    \subitem {I3G4250D\_FIFO\_BYPASS\_MODE}, \hyperpage{17}
+    \subitem {I3G4250D\_FIFO\_CTRL\_REG}, \hyperpage{14}
+    \subitem {i3g4250d\_fifo\_data\_level\_get}, \hyperpage{27}
+    \subitem {i3g4250d\_fifo\_empty\_flag\_get}, \hyperpage{28}
+    \subitem {i3g4250d\_fifo\_enable\_get}, \hyperpage{28}
+    \subitem {i3g4250d\_fifo\_enable\_set}, \hyperpage{29}
+    \subitem {I3G4250D\_FIFO\_MODE}, \hyperpage{17}
+    \subitem {i3g4250d\_fifo\_mode\_get}, \hyperpage{30}
+    \subitem {i3g4250d\_fifo\_mode\_set}, \hyperpage{30}
+    \subitem {i3g4250d\_fifo\_mode\_t}, \hyperpage{17}
+    \subitem {i3g4250d\_fifo\_ovr\_flag\_get}, \hyperpage{32}
+    \subitem {I3G4250D\_FIFO\_SRC\_REG}, \hyperpage{14}
+    \subitem {I3G4250D\_FIFO\_STREAM\_MODE}, \hyperpage{17}
+    \subitem {i3g4250d\_fifo\_watermark\_get}, \hyperpage{33}
+    \subitem {i3g4250d\_fifo\_watermark\_set}, \hyperpage{33}
+    \subitem {i3g4250d\_fifo\_wtm\_flag\_get}, \hyperpage{34}
+    \subitem {i3g4250d\_filter\_path\_get}, \hyperpage{35}
+    \subitem {i3g4250d\_filter\_path\_internal\_get}, \hyperpage{35}
+    \subitem {i3g4250d\_filter\_path\_internal\_set}, \hyperpage{36}
+    \subitem {i3g4250d\_filter\_path\_set}, \hyperpage{37}
+    \subitem {i3g4250d\_flag\_data\_ready\_get}, \hyperpage{38}
+    \subitem {i3g4250d\_from\_fs245dps\_to\_mdps}, \hyperpage{39}
+    \subitem {i3g4250d\_from\_lsb\_to\_celsius}, \hyperpage{39}
+    \subitem {i3g4250d\_fs\_t}, \hyperpage{17}
+    \subitem {i3g4250d\_full\_scale\_get}, \hyperpage{39}
+    \subitem {i3g4250d\_full\_scale\_set}, \hyperpage{40}
+    \subitem {I3G4250D\_GY\_ST\_DISABLE}, \hyperpage{20}
+    \subitem {I3G4250D\_GY\_ST\_NEGATIVE}, \hyperpage{20}
+    \subitem {I3G4250D\_GY\_ST\_POSITIVE}, \hyperpage{20}
+    \subitem {i3g4250d\_h\_lactive\_t}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_AUTO\_RESET\_ON\_INT}, \hyperpage{19}
+    \subitem {i3g4250d\_hp\_bandwidth\_get}, \hyperpage{40}
+    \subitem {i3g4250d\_hp\_bandwidth\_set}, \hyperpage{41}
+    \subitem {I3G4250D\_HP\_LEVEL\_0}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_1}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_2}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_3}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_4}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_5}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_6}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_7}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_8}, \hyperpage{18}
+    \subitem {I3G4250D\_HP\_LEVEL\_9}, \hyperpage{18}
+    \subitem {i3g4250d\_hp\_mode\_get}, \hyperpage{42}
+    \subitem {i3g4250d\_hp\_mode\_set}, \hyperpage{43}
+    \subitem {I3G4250D\_HP\_NORMAL\_MODE}, \hyperpage{19}
+    \subitem {I3G4250D\_HP\_NORMAL\_MODE\_WITH\_RST}, \hyperpage{19}
+    \subitem {I3G4250D\_HP\_REFERENCE\_SIGNAL}, \hyperpage{19}
+    \subitem {i3g4250d\_hp\_reference\_value\_get}, \hyperpage{43}
+    \subitem {i3g4250d\_hp\_reference\_value\_set}, \hyperpage{45}
+    \subitem {i3g4250d\_hpcf\_t}, \hyperpage{18}
+    \subitem {i3g4250d\_hpm\_t}, \hyperpage{18}
+    \subitem {I3G4250D\_INT1\_CFG}, \hyperpage{14}
+    \subitem {I3G4250D\_INT1\_DURATION}, \hyperpage{14}
+    \subitem {I3G4250D\_INT1\_ON\_TH\_AND}, \hyperpage{16}
+    \subitem {I3G4250D\_INT1\_ON\_TH\_OR}, \hyperpage{16}
+    \subitem {i3g4250d\_int1\_sel\_t}, \hyperpage{19}
+    \subitem {I3G4250D\_INT1\_SRC}, \hyperpage{14}
+    \subitem {I3G4250D\_INT1\_TSH\_XH}, \hyperpage{15}
+    \subitem {I3G4250D\_INT1\_TSH\_XL}, \hyperpage{15}
+    \subitem {I3G4250D\_INT1\_TSH\_YH}, \hyperpage{15}
+    \subitem {I3G4250D\_INT1\_TSH\_YL}, \hyperpage{15}
+    \subitem {I3G4250D\_INT1\_TSH\_ZH}, \hyperpage{15}
+    \subitem {I3G4250D\_INT1\_TSH\_ZL}, \hyperpage{15}
+    \subitem {I3G4250D\_INT\_LATCHED}, \hyperpage{19}
+    \subitem {i3g4250d\_int\_notification\_get}, \hyperpage{46}
+    \subitem {i3g4250d\_int\_notification\_set}, \hyperpage{46}
+    \subitem {i3g4250d\_int\_on\_threshold\_conf\_get}, \hyperpage{48}
+    \subitem {i3g4250d\_int\_on\_threshold\_conf\_set}, \hyperpage{49}
+    \subitem {i3g4250d\_int\_on\_threshold\_dur\_get}, \hyperpage{49}
+    \subitem {i3g4250d\_int\_on\_threshold\_dur\_set}, \hyperpage{50}
+    \subitem {i3g4250d\_int\_on\_threshold\_mode\_get}, \hyperpage{51}
+    \subitem {i3g4250d\_int\_on\_threshold\_mode\_set}, \hyperpage{51}
+    \subitem {i3g4250d\_int\_on\_threshold\_src\_get}, \hyperpage{52}
+    \subitem {I3G4250D\_INT\_PULSED}, \hyperpage{19}
+    \subitem {i3g4250d\_int\_x\_threshold\_get}, \hyperpage{53}
+    \subitem {i3g4250d\_int\_x\_threshold\_set}, \hyperpage{53}
+    \subitem {i3g4250d\_int\_y\_threshold\_get}, \hyperpage{54}
+    \subitem {i3g4250d\_int\_y\_threshold\_set}, \hyperpage{55}
+    \subitem {i3g4250d\_int\_z\_threshold\_get}, \hyperpage{55}
+    \subitem {i3g4250d\_int\_z\_threshold\_set}, \hyperpage{56}
+    \subitem {i3g4250d\_lir\_t}, \hyperpage{19}
+    \subitem {i3g4250d\_lp\_bandwidth\_get}, \hyperpage{57}
+    \subitem {i3g4250d\_lp\_bandwidth\_set}, \hyperpage{57}
+    \subitem {I3G4250D\_LPF1\_HP\_LPF2\_ON\_INT}, \hyperpage{19}
+    \subitem {I3G4250D\_LPF1\_HP\_LPF2\_ON\_OUT}, \hyperpage{19}
+    \subitem {I3G4250D\_LPF1\_HP\_ON\_INT}, \hyperpage{19}
+    \subitem {I3G4250D\_LPF1\_HP\_ON\_OUT}, \hyperpage{19}
+    \subitem {I3G4250D\_LPF1\_LPF2\_ON\_INT}, \hyperpage{19}
+    \subitem {I3G4250D\_LPF1\_LPF2\_ON\_OUT}, \hyperpage{19}
+    \subitem {I3G4250D\_ODR\_100Hz}, \hyperpage{17}
+    \subitem {I3G4250D\_ODR\_200Hz}, \hyperpage{17}
+    \subitem {I3G4250D\_ODR\_400Hz}, \hyperpage{17}
+    \subitem {I3G4250D\_ODR\_800Hz}, \hyperpage{17}
+    \subitem {I3G4250D\_ODR\_OFF}, \hyperpage{17}
+    \subitem {I3G4250D\_ODR\_SLEEP}, \hyperpage{17}
+    \subitem {I3G4250D\_ONLY\_LPF1\_ON\_INT}, \hyperpage{19}
+    \subitem {I3G4250D\_ONLY\_LPF1\_ON\_OUT}, \hyperpage{19}
+    \subitem {I3G4250D\_OPEN\_DRAIN}, \hyperpage{20}
+    \subitem {i3g4250d\_out\_sel\_t}, \hyperpage{19}
+    \subitem {I3G4250D\_OUT\_TEMP}, \hyperpage{15}
+    \subitem {I3G4250D\_OUT\_X\_H}, \hyperpage{15}
+    \subitem {I3G4250D\_OUT\_X\_L}, \hyperpage{15}
+    \subitem {I3G4250D\_OUT\_Y\_H}, \hyperpage{15}
+    \subitem {I3G4250D\_OUT\_Y\_L}, \hyperpage{16}
+    \subitem {I3G4250D\_OUT\_Z\_H}, \hyperpage{16}
+    \subitem {I3G4250D\_OUT\_Z\_L}, \hyperpage{16}
+    \subitem {i3g4250d\_pin\_int1\_route\_get}, \hyperpage{58}
+    \subitem {i3g4250d\_pin\_int1\_route\_set}, \hyperpage{59}
+    \subitem {i3g4250d\_pin\_int2\_route\_get}, \hyperpage{59}
+    \subitem {i3g4250d\_pin\_int2\_route\_set}, \hyperpage{60}
+    \subitem {i3g4250d\_pin\_mode\_get}, \hyperpage{61}
+    \subitem {i3g4250d\_pin\_mode\_set}, \hyperpage{61}
+    \subitem {i3g4250d\_pin\_polarity\_get}, \hyperpage{63}
+    \subitem {i3g4250d\_pin\_polarity\_set}, \hyperpage{64}
+    \subitem {i3g4250d\_pp\_od\_t}, \hyperpage{19}
+    \subitem {I3G4250D\_PUSH\_PULL}, \hyperpage{20}
+    \subitem {i3g4250d\_read\_reg}, \hyperpage{64}
+    \subitem {I3G4250D\_REFERENCE}, \hyperpage{16}
+    \subitem {i3g4250d\_self\_test\_get}, \hyperpage{65}
+    \subitem {i3g4250d\_self\_test\_set}, \hyperpage{66}
+    \subitem {i3g4250d\_sim\_t}, \hyperpage{20}
+    \subitem {I3G4250D\_SPI\_3\_WIRE}, \hyperpage{20}
+    \subitem {I3G4250D\_SPI\_4\_WIRE}, \hyperpage{20}
+    \subitem {i3g4250d\_spi\_mode\_get}, \hyperpage{66}
+    \subitem {i3g4250d\_spi\_mode\_set}, \hyperpage{67}
+    \subitem {i3g4250d\_st\_t}, \hyperpage{20}
+    \subitem {I3G4250D\_STATUS\_REG}, \hyperpage{16}
+    \subitem {i3g4250d\_status\_reg\_get}, \hyperpage{68}
+    \subitem {i3g4250d\_temperature\_raw\_get}, \hyperpage{68}
+    \subitem {I3G4250D\_WHO\_AM\_I}, \hyperpage{16}
+    \subitem {i3g4250d\_write\_reg}, \hyperpage{69}
+  \item {I3G4250D\_2000dps}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_245dps}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_500dps}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_ACTIVE\_HIGH}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_ACTIVE\_LOW}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {i3g4250d\_and\_or\_t}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_angular\_rate\_raw\_get}
+    \subitem {I3G4250D}, \hyperpage{20}
+    \subitem {I3G4250D\_Dataoutput}, \hyperpage{82}
+  \item {I3G4250D\_AUX\_LSB\_AT\_LOW\_ADD}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_AUX\_MSB\_AT\_LOW\_ADD}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_axis\_x\_data\_get}
+    \subitem {I3G4250D}, \hyperpage{21}
+  \item {i3g4250d\_axis\_x\_data\_set}
+    \subitem {I3G4250D}, \hyperpage{21}
+  \item {i3g4250d\_axis\_y\_data\_get}
+    \subitem {I3G4250D}, \hyperpage{21}
+  \item {i3g4250d\_axis\_y\_data\_set}
+    \subitem {I3G4250D}, \hyperpage{21}
+  \item {i3g4250d\_axis\_z\_data\_get}
+    \subitem {I3G4250D}, \hyperpage{21}
+  \item {i3g4250d\_axis\_z\_data\_set}
+    \subitem {I3G4250D}, \hyperpage{22}
+  \item {i3g4250d\_ble\_t}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_boot\_get}
+    \subitem {I3G4250D}, \hyperpage{22}
+    \subitem {I3G4250D\_common}, \hyperpage{84}
+  \item {i3g4250d\_boot\_set}
+    \subitem {I3G4250D}, \hyperpage{22}
+    \subitem {I3G4250D\_common}, \hyperpage{85}
+  \item {i3g4250d\_bw\_t}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_common}, \hyperpage{83}
+    \subitem {i3g4250d\_boot\_get}, \hyperpage{84}
+    \subitem {i3g4250d\_boot\_set}, \hyperpage{85}
+    \subitem {i3g4250d\_data\_format\_get}, \hyperpage{85}
+    \subitem {i3g4250d\_data\_format\_set}, \hyperpage{87}
+    \subitem {i3g4250d\_device\_id\_get}, \hyperpage{88}
+    \subitem {i3g4250d\_self\_test\_get}, \hyperpage{89}
+    \subitem {i3g4250d\_self\_test\_set}, \hyperpage{89}
+  \item {I3G4250D\_CTRL\_REG1}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_ctrl\_reg1\_t}, \hyperpage{142}
+    \subitem {bw}, \hyperpage{142}
+    \subitem {dr}, \hyperpage{142}
+    \subitem {pd}, \hyperpage{143}
+  \item {I3G4250D\_CTRL\_REG2}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_ctrl\_reg2\_t}, \hyperpage{143}
+    \subitem {hpcf}, \hyperpage{143}
+    \subitem {hpm}, \hyperpage{143}
+    \subitem {not\_used\_01}, \hyperpage{143}
+  \item {I3G4250D\_CTRL\_REG3}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{144}
+    \subitem {h\_lactive}, \hyperpage{144}
+    \subitem {i1\_boot}, \hyperpage{144}
+    \subitem {i1\_int1}, \hyperpage{144}
+    \subitem {i2\_drdy}, \hyperpage{144}
+    \subitem {i2\_empty}, \hyperpage{144}
+    \subitem {i2\_orun}, \hyperpage{144}
+    \subitem {i2\_wtm}, \hyperpage{145}
+    \subitem {pp\_od}, \hyperpage{145}
+  \item {I3G4250D\_CTRL\_REG4}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{145}
+    \subitem {ble}, \hyperpage{145}
+    \subitem {fs}, \hyperpage{145}
+    \subitem {not\_used\_01}, \hyperpage{146}
+    \subitem {not\_used\_02}, \hyperpage{146}
+    \subitem {sim}, \hyperpage{146}
+    \subitem {st}, \hyperpage{146}
+  \item {I3G4250D\_CTRL\_REG5}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{146}
+    \subitem {boot}, \hyperpage{147}
+    \subitem {fifo\_en}, \hyperpage{147}
+    \subitem {hpen}, \hyperpage{147}
+    \subitem {int1\_sel}, \hyperpage{147}
+    \subitem {not\_used\_01}, \hyperpage{147}
+    \subitem {out\_sel}, \hyperpage{147}
+  \item {I3G4250D\_CUT\_OFF\_HIGH}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_CUT\_OFF\_LOW}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_CUT\_OFF\_MEDIUM}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_CUT\_OFF\_VERY\_HIGH}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_data\_format\_get}
+    \subitem {I3G4250D}, \hyperpage{23}
+    \subitem {I3G4250D\_common}, \hyperpage{85}
+  \item {i3g4250d\_data\_format\_set}
+    \subitem {I3G4250D}, \hyperpage{24}
+    \subitem {I3G4250D\_common}, \hyperpage{87}
+  \item {I3G4250D\_data\_generation}, \hyperpage{75}
+    \subitem {i3g4250d\_data\_rate\_get}, \hyperpage{75}
+    \subitem {i3g4250d\_data\_rate\_set}, \hyperpage{76}
+    \subitem {i3g4250d\_flag\_data\_ready\_get}, \hyperpage{77}
+    \subitem {i3g4250d\_full\_scale\_get}, \hyperpage{78}
+    \subitem {i3g4250d\_full\_scale\_set}, \hyperpage{79}
+    \subitem {i3g4250d\_status\_reg\_get}, \hyperpage{79}
+  \item {i3g4250d\_data\_rate\_get}
+    \subitem {I3G4250D}, \hyperpage{24}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{75}
+  \item {i3g4250d\_data\_rate\_set}
+    \subitem {I3G4250D}, \hyperpage{25}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{76}
+  \item {I3G4250D\_Dataoutput}, \hyperpage{81}
+    \subitem {i3g4250d\_angular\_rate\_raw\_get}, \hyperpage{82}
+    \subitem {i3g4250d\_temperature\_raw\_get}, \hyperpage{82}
+  \item {i3g4250d\_device\_id\_get}
+    \subitem {I3G4250D}, \hyperpage{26}
+    \subitem {I3G4250D\_common}, \hyperpage{88}
+  \item {i3g4250d\_dr\_t}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_fifo}, \hyperpage{121}
+    \subitem {i3g4250d\_fifo\_data\_level\_get}, \hyperpage{122}
+    \subitem {i3g4250d\_fifo\_empty\_flag\_get}, \hyperpage{122}
+    \subitem {i3g4250d\_fifo\_enable\_get}, \hyperpage{123}
+    \subitem {i3g4250d\_fifo\_enable\_set}, \hyperpage{123}
+    \subitem {i3g4250d\_fifo\_mode\_get}, \hyperpage{124}
+    \subitem {i3g4250d\_fifo\_mode\_set}, \hyperpage{125}
+    \subitem {i3g4250d\_fifo\_ovr\_flag\_get}, \hyperpage{125}
+    \subitem {i3g4250d\_fifo\_watermark\_get}, \hyperpage{126}
+    \subitem {i3g4250d\_fifo\_watermark\_set}, \hyperpage{127}
+    \subitem {i3g4250d\_fifo\_wtm\_flag\_get}, \hyperpage{127}
+  \item {I3G4250D\_FIFO\_BYPASS\_MODE}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_FIFO\_CTRL\_REG}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_fifo\_ctrl\_reg\_t}, \hyperpage{147}
+    \subitem {fm}, \hyperpage{148}
+    \subitem {wtm}, \hyperpage{148}
+  \item {i3g4250d\_fifo\_data\_level\_get}
+    \subitem {I3G4250D}, \hyperpage{27}
+    \subitem {I3G4250D\_fifo}, \hyperpage{122}
+  \item {i3g4250d\_fifo\_empty\_flag\_get}
+    \subitem {I3G4250D}, \hyperpage{28}
+    \subitem {I3G4250D\_fifo}, \hyperpage{122}
+  \item {i3g4250d\_fifo\_enable\_get}
+    \subitem {I3G4250D}, \hyperpage{28}
+    \subitem {I3G4250D\_fifo}, \hyperpage{123}
+  \item {i3g4250d\_fifo\_enable\_set}
+    \subitem {I3G4250D}, \hyperpage{29}
+    \subitem {I3G4250D\_fifo}, \hyperpage{123}
+  \item {I3G4250D\_FIFO\_MODE}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_fifo\_mode\_get}
+    \subitem {I3G4250D}, \hyperpage{30}
+    \subitem {I3G4250D\_fifo}, \hyperpage{124}
+  \item {i3g4250d\_fifo\_mode\_set}
+    \subitem {I3G4250D}, \hyperpage{30}
+    \subitem {I3G4250D\_fifo}, \hyperpage{125}
+  \item {i3g4250d\_fifo\_mode\_t}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_fifo\_ovr\_flag\_get}
+    \subitem {I3G4250D}, \hyperpage{32}
+    \subitem {I3G4250D\_fifo}, \hyperpage{125}
+  \item {I3G4250D\_FIFO\_SRC\_REG}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_fifo\_src\_reg\_t}, \hyperpage{148}
+    \subitem {empty}, \hyperpage{148}
+    \subitem {fss}, \hyperpage{148}
+    \subitem {ovrn}, \hyperpage{148}
+    \subitem {wtm}, \hyperpage{149}
+  \item {I3G4250D\_FIFO\_STREAM\_MODE}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_fifo\_watermark\_get}
+    \subitem {I3G4250D}, \hyperpage{33}
+    \subitem {I3G4250D\_fifo}, \hyperpage{126}
+  \item {i3g4250d\_fifo\_watermark\_set}
+    \subitem {I3G4250D}, \hyperpage{33}
+    \subitem {I3G4250D\_fifo}, \hyperpage{127}
+  \item {i3g4250d\_fifo\_wtm\_flag\_get}
+    \subitem {I3G4250D}, \hyperpage{34}
+    \subitem {I3G4250D\_fifo}, \hyperpage{127}
+  \item {i3g4250d\_filter\_path\_get}
+    \subitem {I3G4250D}, \hyperpage{35}
+    \subitem {I3G4250D\_filters}, \hyperpage{91}
+  \item {i3g4250d\_filter\_path\_internal\_get}
+    \subitem {I3G4250D}, \hyperpage{35}
+    \subitem {I3G4250D\_filters}, \hyperpage{92}
+  \item {i3g4250d\_filter\_path\_internal\_set}
+    \subitem {I3G4250D}, \hyperpage{36}
+    \subitem {I3G4250D\_filters}, \hyperpage{92}
+  \item {i3g4250d\_filter\_path\_set}
+    \subitem {I3G4250D}, \hyperpage{37}
+    \subitem {I3G4250D\_filters}, \hyperpage{94}
+  \item {I3G4250D\_filters}, \hyperpage{90}
+    \subitem {i3g4250d\_filter\_path\_get}, \hyperpage{91}
+    \subitem {i3g4250d\_filter\_path\_internal\_get}, \hyperpage{92}
+    \subitem {i3g4250d\_filter\_path\_internal\_set}, \hyperpage{92}
+    \subitem {i3g4250d\_filter\_path\_set}, \hyperpage{94}
+    \subitem {i3g4250d\_hp\_bandwidth\_get}, \hyperpage{95}
+    \subitem {i3g4250d\_hp\_bandwidth\_set}, \hyperpage{96}
+    \subitem {i3g4250d\_hp\_mode\_get}, \hyperpage{97}
+    \subitem {i3g4250d\_hp\_mode\_set}, \hyperpage{97}
+    \subitem {i3g4250d\_hp\_reference\_value\_get}, \hyperpage{98}
+    \subitem {i3g4250d\_hp\_reference\_value\_set}, \hyperpage{99}
+    \subitem {i3g4250d\_lp\_bandwidth\_get}, \hyperpage{99}
+    \subitem {i3g4250d\_lp\_bandwidth\_set}, \hyperpage{100}
+  \item {i3g4250d\_flag\_data\_ready\_get}
+    \subitem {I3G4250D}, \hyperpage{38}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{77}
+  \item {i3g4250d\_from\_fs245dps\_to\_mdps}
+    \subitem {I3G4250D}, \hyperpage{39}
+    \subitem {I3G4250D\_Sensitivity}, \hyperpage{74}
+  \item {i3g4250d\_from\_lsb\_to\_celsius}
+    \subitem {I3G4250D}, \hyperpage{39}
+    \subitem {I3G4250D\_Sensitivity}, \hyperpage{74}
+  \item {i3g4250d\_fs\_t}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {i3g4250d\_full\_scale\_get}
+    \subitem {I3G4250D}, \hyperpage{39}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{78}
+  \item {i3g4250d\_full\_scale\_set}
+    \subitem {I3G4250D}, \hyperpage{40}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{79}
+  \item {I3G4250D\_GY\_ST\_DISABLE}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {I3G4250D\_GY\_ST\_NEGATIVE}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {I3G4250D\_GY\_ST\_POSITIVE}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {i3g4250d\_h\_lactive\_t}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_AUTO\_RESET\_ON\_INT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {i3g4250d\_hp\_bandwidth\_get}
+    \subitem {I3G4250D}, \hyperpage{40}
+    \subitem {I3G4250D\_filters}, \hyperpage{95}
+  \item {i3g4250d\_hp\_bandwidth\_set}
+    \subitem {I3G4250D}, \hyperpage{41}
+    \subitem {I3G4250D\_filters}, \hyperpage{96}
+  \item {I3G4250D\_HP\_LEVEL\_0}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_1}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_2}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_3}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_4}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_5}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_6}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_7}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_8}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_HP\_LEVEL\_9}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {i3g4250d\_hp\_mode\_get}
+    \subitem {I3G4250D}, \hyperpage{42}
+    \subitem {I3G4250D\_filters}, \hyperpage{97}
+  \item {i3g4250d\_hp\_mode\_set}
+    \subitem {I3G4250D}, \hyperpage{43}
+    \subitem {I3G4250D\_filters}, \hyperpage{97}
+  \item {I3G4250D\_HP\_NORMAL\_MODE}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_HP\_NORMAL\_MODE\_WITH\_RST}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_HP\_REFERENCE\_SIGNAL}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {i3g4250d\_hp\_reference\_value\_get}
+    \subitem {I3G4250D}, \hyperpage{43}
+    \subitem {I3G4250D\_filters}, \hyperpage{98}
+  \item {i3g4250d\_hp\_reference\_value\_set}
+    \subitem {I3G4250D}, \hyperpage{45}
+    \subitem {I3G4250D\_filters}, \hyperpage{99}
+  \item {i3g4250d\_hpcf\_t}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {i3g4250d\_hpm\_t}
+    \subitem {I3G4250D}, \hyperpage{18}
+  \item {I3G4250D\_I2C\_ADD\_H}
+    \subitem {I3g4250d\_Infos}, \hyperpage{132}
+  \item {I3G4250D\_I2C\_ADD\_L}
+    \subitem {I3g4250d\_Infos}, \hyperpage{132}
+  \item {I3G4250D\_ID}
+    \subitem {I3g4250d\_Infos}, \hyperpage{132}
+  \item {I3g4250d\_Infos}, \hyperpage{132}
+    \subitem {I3G4250D\_I2C\_ADD\_H}, \hyperpage{132}
+    \subitem {I3G4250D\_I2C\_ADD\_L}, \hyperpage{132}
+    \subitem {I3G4250D\_ID}, \hyperpage{132}
+  \item {I3G4250D\_INT1\_CFG}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_int1\_cfg\_t}, \hyperpage{149}
+    \subitem {and\_or}, \hyperpage{149}
+    \subitem {lir}, \hyperpage{149}
+    \subitem {xhie}, \hyperpage{149}
+    \subitem {xlie}, \hyperpage{150}
+    \subitem {yhie}, \hyperpage{150}
+    \subitem {ylie}, \hyperpage{150}
+    \subitem {zhie}, \hyperpage{150}
+    \subitem {zlie}, \hyperpage{150}
+  \item {I3G4250D\_INT1\_DURATION}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_int1\_duration\_t}, \hyperpage{150}
+    \subitem {d}, \hyperpage{150}
+    \subitem {wait}, \hyperpage{150}
+  \item {I3G4250D\_INT1\_ON\_TH\_AND}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {I3G4250D\_INT1\_ON\_TH\_OR}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_int1\_route\_t}, \hyperpage{151}
+    \subitem {i1\_boot}, \hyperpage{151}
+    \subitem {i1\_int1}, \hyperpage{151}
+  \item {i3g4250d\_int1\_sel\_t}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_INT1\_SRC}
+    \subitem {I3G4250D}, \hyperpage{14}
+  \item {i3g4250d\_int1\_src\_t}, \hyperpage{151}
+    \subitem {ia}, \hyperpage{152}
+    \subitem {not\_used\_01}, \hyperpage{152}
+    \subitem {xh}, \hyperpage{152}
+    \subitem {xl}, \hyperpage{152}
+    \subitem {yh}, \hyperpage{152}
+    \subitem {yl}, \hyperpage{152}
+    \subitem {zh}, \hyperpage{152}
+    \subitem {zl}, \hyperpage{152}
+  \item {I3G4250D\_INT1\_TSH\_XH}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_xh\_t}, \hyperpage{153}
+    \subitem {not\_used\_01}, \hyperpage{153}
+    \subitem {thsx}, \hyperpage{153}
+  \item {I3G4250D\_INT1\_TSH\_XL}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_xl\_t}, \hyperpage{153}
+    \subitem {thsx}, \hyperpage{154}
+  \item {I3G4250D\_INT1\_TSH\_YH}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_yh\_t}, \hyperpage{154}
+    \subitem {not\_used\_01}, \hyperpage{154}
+    \subitem {thsy}, \hyperpage{154}
+  \item {I3G4250D\_INT1\_TSH\_YL}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_yl\_t}, \hyperpage{154}
+    \subitem {thsy}, \hyperpage{155}
+  \item {I3G4250D\_INT1\_TSH\_ZH}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_zh\_t}, \hyperpage{155}
+    \subitem {not\_used\_01}, \hyperpage{155}
+    \subitem {thsz}, \hyperpage{155}
+  \item {I3G4250D\_INT1\_TSH\_ZL}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {i3g4250d\_int1\_tsh\_zl\_t}, \hyperpage{155}
+    \subitem {thsz}, \hyperpage{156}
+  \item {i3g4250d\_int2\_route\_t}, \hyperpage{156}
+    \subitem {i2\_drdy}, \hyperpage{156}
+    \subitem {i2\_empty}, \hyperpage{156}
+    \subitem {i2\_orun}, \hyperpage{156}
+    \subitem {i2\_wtm}, \hyperpage{156}
+  \item {I3G4250D\_INT\_LATCHED}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {i3g4250d\_int\_notification\_get}
+    \subitem {I3G4250D}, \hyperpage{46}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{104}
+  \item {i3g4250d\_int\_notification\_set}
+    \subitem {I3G4250D}, \hyperpage{46}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{104}
+  \item {i3g4250d\_int\_on\_threshold\_conf\_get}
+    \subitem {I3G4250D}, \hyperpage{48}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{112}
+  \item {i3g4250d\_int\_on\_threshold\_conf\_set}
+    \subitem {I3G4250D}, \hyperpage{49}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{113}
+  \item {i3g4250d\_int\_on\_threshold\_dur\_get}
+    \subitem {I3G4250D}, \hyperpage{49}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{113}
+  \item {i3g4250d\_int\_on\_threshold\_dur\_set}
+    \subitem {I3G4250D}, \hyperpage{50}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{114}
+  \item {i3g4250d\_int\_on\_threshold\_mode\_get}
+    \subitem {I3G4250D}, \hyperpage{51}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{115}
+  \item {i3g4250d\_int\_on\_threshold\_mode\_set}
+    \subitem {I3G4250D}, \hyperpage{51}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{115}
+  \item {i3g4250d\_int\_on\_threshold\_src\_get}
+    \subitem {I3G4250D}, \hyperpage{52}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{116}
+  \item {I3G4250D\_INT\_PULSED}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {i3g4250d\_int\_x\_threshold\_get}
+    \subitem {I3G4250D}, \hyperpage{53}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{117}
+  \item {i3g4250d\_int\_x\_threshold\_set}
+    \subitem {I3G4250D}, \hyperpage{53}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{117}
+  \item {i3g4250d\_int\_y\_threshold\_get}
+    \subitem {I3G4250D}, \hyperpage{54}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{118}
+  \item {i3g4250d\_int\_y\_threshold\_set}
+    \subitem {I3G4250D}, \hyperpage{55}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{119}
+  \item {i3g4250d\_int\_z\_threshold\_get}
+    \subitem {I3G4250D}, \hyperpage{55}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{119}
+  \item {i3g4250d\_int\_z\_threshold\_set}
+    \subitem {I3G4250D}, \hyperpage{56}
+    \subitem {interrupt\_on\_threshold}, \hyperpage{120}
+  \item {I3G4250D\_Interfaces\_Functions}, \hyperpage{71}
+    \subitem {i3g4250d\_read\_reg}, \hyperpage{71}
+    \subitem {i3g4250d\_write\_reg}, \hyperpage{72}
+  \item {I3G4250D\_interrupt\_pins}, \hyperpage{103}
+    \subitem {i3g4250d\_int\_notification\_get}, \hyperpage{104}
+    \subitem {i3g4250d\_int\_notification\_set}, \hyperpage{104}
+    \subitem {i3g4250d\_pin\_int1\_route\_get}, \hyperpage{105}
+    \subitem {i3g4250d\_pin\_int1\_route\_set}, \hyperpage{105}
+    \subitem {i3g4250d\_pin\_int2\_route\_get}, \hyperpage{106}
+    \subitem {i3g4250d\_pin\_int2\_route\_set}, \hyperpage{107}
+    \subitem {i3g4250d\_pin\_mode\_get}, \hyperpage{107}
+    \subitem {i3g4250d\_pin\_mode\_set}, \hyperpage{108}
+    \subitem {i3g4250d\_pin\_polarity\_get}, \hyperpage{109}
+    \subitem {i3g4250d\_pin\_polarity\_set}, \hyperpage{109}
+  \item {i3g4250d\_lir\_t}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {i3g4250d\_lp\_bandwidth\_get}
+    \subitem {I3G4250D}, \hyperpage{57}
+    \subitem {I3G4250D\_filters}, \hyperpage{99}
+  \item {i3g4250d\_lp\_bandwidth\_set}
+    \subitem {I3G4250D}, \hyperpage{57}
+    \subitem {I3G4250D\_filters}, \hyperpage{100}
+  \item {I3G4250D\_LPF1\_HP\_LPF2\_ON\_INT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_LPF1\_HP\_LPF2\_ON\_OUT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_LPF1\_HP\_ON\_INT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_LPF1\_HP\_ON\_OUT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_LPF1\_LPF2\_ON\_INT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_LPF1\_LPF2\_ON\_OUT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_ODR\_100Hz}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ODR\_200Hz}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ODR\_400Hz}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ODR\_800Hz}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ODR\_OFF}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ODR\_SLEEP}
+    \subitem {I3G4250D}, \hyperpage{17}
+  \item {I3G4250D\_ONLY\_LPF1\_ON\_INT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_ONLY\_LPF1\_ON\_OUT}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_OPEN\_DRAIN}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {i3g4250d\_out\_sel\_t}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_OUT\_TEMP}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {I3G4250D\_OUT\_X\_H}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {I3G4250D\_OUT\_X\_L}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {I3G4250D\_OUT\_Y\_H}
+    \subitem {I3G4250D}, \hyperpage{15}
+  \item {I3G4250D\_OUT\_Y\_L}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {I3G4250D\_OUT\_Z\_H}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {I3G4250D\_OUT\_Z\_L}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_pin\_int1\_route\_get}
+    \subitem {I3G4250D}, \hyperpage{58}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{105}
+  \item {i3g4250d\_pin\_int1\_route\_set}
+    \subitem {I3G4250D}, \hyperpage{59}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{105}
+  \item {i3g4250d\_pin\_int2\_route\_get}
+    \subitem {I3G4250D}, \hyperpage{59}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{106}
+  \item {i3g4250d\_pin\_int2\_route\_set}
+    \subitem {I3G4250D}, \hyperpage{60}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{107}
+  \item {i3g4250d\_pin\_mode\_get}
+    \subitem {I3G4250D}, \hyperpage{61}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{107}
+  \item {i3g4250d\_pin\_mode\_set}
+    \subitem {I3G4250D}, \hyperpage{61}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{108}
+  \item {i3g4250d\_pin\_polarity\_get}
+    \subitem {I3G4250D}, \hyperpage{63}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{109}
+  \item {i3g4250d\_pin\_polarity\_set}
+    \subitem {I3G4250D}, \hyperpage{64}
+    \subitem {I3G4250D\_interrupt\_pins}, \hyperpage{109}
+  \item {i3g4250d\_pp\_od\_t}
+    \subitem {I3G4250D}, \hyperpage{19}
+  \item {I3G4250D\_PUSH\_PULL}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {i3g4250d\_read\_reg}
+    \subitem {I3G4250D}, \hyperpage{64}
+    \subitem {I3G4250D\_Interfaces\_Functions}, \hyperpage{71}
+  \item {I3G4250D\_REFERENCE}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_reference\_t}, \hyperpage{157}
+    \subitem {ref}, \hyperpage{157}
+  \item {i3g4250d\_reg.c}, \hyperpage{203}
+  \item {i3g4250d\_reg.h}, \hyperpage{165}
+  \item {i3g4250d\_reg\_t}, \hyperpage{157}
+    \subitem {bitwise}, \hyperpage{159}
+    \subitem {byte}, \hyperpage{159}
+    \subitem {ctrl\_reg1}, \hyperpage{159}
+    \subitem {ctrl\_reg2}, \hyperpage{159}
+    \subitem {ctrl\_reg3}, \hyperpage{159}
+    \subitem {ctrl\_reg4}, \hyperpage{159}
+    \subitem {ctrl\_reg5}, \hyperpage{159}
+    \subitem {fifo\_ctrl\_reg}, \hyperpage{159}
+    \subitem {fifo\_src\_reg}, \hyperpage{160}
+    \subitem {int1\_cfg}, \hyperpage{160}
+    \subitem {int1\_duration}, \hyperpage{160}
+    \subitem {int1\_src}, \hyperpage{160}
+    \subitem {int1\_tsh\_xh}, \hyperpage{160}
+    \subitem {int1\_tsh\_xl}, \hyperpage{160}
+    \subitem {int1\_tsh\_yh}, \hyperpage{160}
+    \subitem {int1\_tsh\_yl}, \hyperpage{160}
+    \subitem {int1\_tsh\_zh}, \hyperpage{160}
+    \subitem {int1\_tsh\_zl}, \hyperpage{160}
+    \subitem {reference}, \hyperpage{161}
+    \subitem {status\_reg}, \hyperpage{161}
+  \item {i3g4250d\_self\_test\_get}
+    \subitem {I3G4250D}, \hyperpage{65}
+    \subitem {I3G4250D\_common}, \hyperpage{89}
+  \item {i3g4250d\_self\_test\_set}
+    \subitem {I3G4250D}, \hyperpage{66}
+    \subitem {I3G4250D\_common}, \hyperpage{89}
+  \item {I3G4250D\_Sensitivity}, \hyperpage{73}
+    \subitem {i3g4250d\_from\_fs245dps\_to\_mdps}, \hyperpage{74}
+    \subitem {i3g4250d\_from\_lsb\_to\_celsius}, \hyperpage{74}
+  \item {I3G4250D\_serial\_interface}, \hyperpage{101}
+    \subitem {i3g4250d\_spi\_mode\_get}, \hyperpage{101}
+    \subitem {i3g4250d\_spi\_mode\_set}, \hyperpage{102}
+  \item {i3g4250d\_sim\_t}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {I3G4250D\_SPI\_3\_WIRE}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {I3G4250D\_SPI\_4\_WIRE}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {i3g4250d\_spi\_mode\_get}
+    \subitem {I3G4250D}, \hyperpage{66}
+    \subitem {I3G4250D\_serial\_interface}, \hyperpage{101}
+  \item {i3g4250d\_spi\_mode\_set}
+    \subitem {I3G4250D}, \hyperpage{67}
+    \subitem {I3G4250D\_serial\_interface}, \hyperpage{102}
+  \item {i3g4250d\_st\_t}
+    \subitem {I3G4250D}, \hyperpage{20}
+  \item {I3G4250D\_STATUS\_REG}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_status\_reg\_get}
+    \subitem {I3G4250D}, \hyperpage{68}
+    \subitem {I3G4250D\_data\_generation}, \hyperpage{79}
+  \item {i3g4250d\_status\_reg\_t}, \hyperpage{161}
+    \subitem {\_xor}, \hyperpage{161}
+    \subitem {xda}, \hyperpage{161}
+    \subitem {yda}, \hyperpage{161}
+    \subitem {yor}, \hyperpage{161}
+    \subitem {zda}, \hyperpage{162}
+    \subitem {zor}, \hyperpage{162}
+    \subitem {zyxda}, \hyperpage{162}
+    \subitem {zyxor}, \hyperpage{162}
+  \item {i3g4250d\_temperature\_raw\_get}
+    \subitem {I3G4250D}, \hyperpage{68}
+    \subitem {I3G4250D\_Dataoutput}, \hyperpage{82}
+  \item {I3G4250D\_WHO\_AM\_I}
+    \subitem {I3G4250D}, \hyperpage{16}
+  \item {i3g4250d\_write\_reg}
+    \subitem {I3G4250D}, \hyperpage{69}
+    \subitem {I3G4250D\_Interfaces\_Functions}, \hyperpage{72}
+  \item {ia}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {initialise\_monitor\_handles}
+    \subitem {syscalls.c}, \hyperpage{221}
+  \item {INSTRUCTION\_CACHE\_ENABLE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+  \item {int1\_cfg}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_duration}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_sel}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+  \item {int1\_src}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_xh}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_xl}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_yh}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_yl}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_zh}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {int1\_tsh\_zl}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{160}
+  \item {Interfaces\_Functions}, \hyperpage{131}
+    \subitem {stmdev\_mdelay\_ptr}, \hyperpage{131}
+    \subitem {stmdev\_read\_ptr}, \hyperpage{131}
+    \subitem {stmdev\_write\_ptr}, \hyperpage{131}
+  \item {interrupt\_on\_threshold}, \hyperpage{111}
+    \subitem {i3g4250d\_int\_on\_threshold\_conf\_get}, \hyperpage{112}
+    \subitem {i3g4250d\_int\_on\_threshold\_conf\_set}, \hyperpage{113}
+    \subitem {i3g4250d\_int\_on\_threshold\_dur\_get}, \hyperpage{113}
+    \subitem {i3g4250d\_int\_on\_threshold\_dur\_set}, \hyperpage{114}
+    \subitem {i3g4250d\_int\_on\_threshold\_mode\_get}, \hyperpage{115}
+    \subitem {i3g4250d\_int\_on\_threshold\_mode\_set}, \hyperpage{115}
+    \subitem {i3g4250d\_int\_on\_threshold\_src\_get}, \hyperpage{116}
+    \subitem {i3g4250d\_int\_x\_threshold\_get}, \hyperpage{117}
+    \subitem {i3g4250d\_int\_x\_threshold\_set}, \hyperpage{117}
+    \subitem {i3g4250d\_int\_y\_threshold\_get}, \hyperpage{118}
+    \subitem {i3g4250d\_int\_y\_threshold\_set}, \hyperpage{119}
+    \subitem {i3g4250d\_int\_z\_threshold\_get}, \hyperpage{119}
+    \subitem {i3g4250d\_int\_z\_threshold\_set}, \hyperpage{120}
+
+  \indexspace
+
+  \item {lir}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{149}
+  \item {LSE\_STARTUP\_TIMEOUT}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+  \item {LSE\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+  \item {LSI\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+  \item {LSM9DS1\_Register\_Union}, \hyperpage{132}
+
+  \indexspace
+
+  \item {MAC\_ADDR0}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{186}
+  \item {MAC\_ADDR1}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {MAC\_ADDR2}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {MAC\_ADDR3}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {MAC\_ADDR4}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {MAC\_ADDR5}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {main}
+    \subitem {main.c}, \hyperpage{208}
+  \item {main.c}, \hyperpage{207}
+    \subitem {BOOT\_TIME}, \hyperpage{208}
+    \subitem {hspi1}, \hyperpage{211}
+    \subitem {huart2}, \hyperpage{211}
+    \subitem {main}, \hyperpage{208}
+    \subitem {SystemClock\_Config}, \hyperpage{210}
+  \item {main.h}, \hyperpage{179}
+    \subitem {Error\_Handler}, \hyperpage{180}
+    \subitem {GYRO\_CS\_OUT\_GPIO\_Port}, \hyperpage{180}
+    \subitem {GYRO\_CS\_OUT\_Pin}, \hyperpage{180}
+  \item {mdelay}
+    \subitem {stmdev\_ctx\_t}, \hyperpage{162}
+  \item {MemManage\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {MEMS\_SHARED\_TYPES}
+    \subitem {sensors common types}, \hyperpage{130}
+  \item {MEMS\_UCF\_SHARED\_TYPES}
+    \subitem {sensors common types}, \hyperpage{130}
+
+  \indexspace
+
+  \item {NMI\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {not\_used\_01}
+    \subitem {i3g4250d\_ctrl\_reg2\_t}, \hyperpage{143}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{146}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+    \subitem {i3g4250d\_int1\_tsh\_xh\_t}, \hyperpage{153}
+    \subitem {i3g4250d\_int1\_tsh\_yh\_t}, \hyperpage{154}
+    \subitem {i3g4250d\_int1\_tsh\_zh\_t}, \hyperpage{155}
+  \item {not\_used\_02}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{146}
+
+  \indexspace
+
+  \item {out\_sel}
+    \subitem {i3g4250d\_ctrl\_reg5\_t}, \hyperpage{147}
+  \item {ovrn}
+    \subitem {i3g4250d\_fifo\_src\_reg\_t}, \hyperpage{148}
+
+  \indexspace
+
+  \item {pd}
+    \subitem {i3g4250d\_ctrl\_reg1\_t}, \hyperpage{143}
+  \item {PendSV\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{215}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{201}
+  \item {PHY\_AUTONEGO\_COMPLETE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {PHY\_AUTONEGOTIATION}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {PHY\_BCR}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {PHY\_BSR}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{187}
+  \item {PHY\_CONFIG\_DELAY}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_DUPLEX\_STATUS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_FULLDUPLEX\_100M}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_FULLDUPLEX\_10M}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_HALFDUPLEX\_100M}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_HALFDUPLEX\_10M}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_ISOLATE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{188}
+  \item {PHY\_JABBER\_DETECTION}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_LINKED\_STATUS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_LOOPBACK}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_POWERDOWN}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_READ\_TO}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_RESET}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_RESET\_DELAY}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{189}
+  \item {PHY\_RESTART\_AUTONEGOTIATION}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {PHY\_SPEED\_STATUS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {PHY\_SR}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {PHY\_WRITE\_TO}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {pp\_od}
+    \subitem {i3g4250d\_ctrl\_reg3\_t}, \hyperpage{145}
+  \item {PREFETCH\_ENABLE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {PROPERTY\_DISABLE}
+    \subitem {sensors common types}, \hyperpage{130}
+  \item {PROPERTY\_ENABLE}
+    \subitem {sensors common types}, \hyperpage{130}
+
+  \indexspace
+
+  \item {read\_reg}
+    \subitem {stmdev\_ctx\_t}, \hyperpage{163}
+  \item {ref}
+    \subitem {i3g4250d\_reference\_t}, \hyperpage{157}
+  \item {reference}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{161}
+
+  \indexspace
+
+  \item {sensors common types}, \hyperpage{129}
+    \subitem {MEMS\_SHARED\_TYPES}, \hyperpage{130}
+    \subitem {MEMS\_UCF\_SHARED\_TYPES}, \hyperpage{130}
+    \subitem {PROPERTY\_DISABLE}, \hyperpage{130}
+    \subitem {PROPERTY\_ENABLE}, \hyperpage{130}
+  \item {sim}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{146}
+  \item {st}
+    \subitem {i3g4250d\_ctrl\_reg4\_t}, \hyperpage{146}
+  \item {status\_reg}
+    \subitem {i3g4250d\_reg\_t}, \hyperpage{161}
+  \item {stm32f4xx\_hal\_conf.h}, \hyperpage{181}
+    \subitem {assert\_param}, \hyperpage{183}
+    \subitem {DATA\_CACHE\_ENABLE}, \hyperpage{183}
+    \subitem {DP83848\_PHY\_ADDRESS}, \hyperpage{184}
+    \subitem {ETH\_RX\_BUF\_SIZE}, \hyperpage{184}
+    \subitem {ETH\_RXBUFNB}, \hyperpage{184}
+    \subitem {ETH\_TX\_BUF\_SIZE}, \hyperpage{184}
+    \subitem {ETH\_TXBUFNB}, \hyperpage{184}
+    \subitem {EXTERNAL\_CLOCK\_VALUE}, \hyperpage{184}
+    \subitem {HAL\_CORTEX\_MODULE\_ENABLED}, \hyperpage{184}
+    \subitem {HAL\_DMA\_MODULE\_ENABLED}, \hyperpage{184}
+    \subitem {HAL\_EXTI\_MODULE\_ENABLED}, \hyperpage{184}
+    \subitem {HAL\_FLASH\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_GPIO\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_PWR\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_RCC\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_SPI\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HAL\_UART\_MODULE\_ENABLED}, \hyperpage{185}
+    \subitem {HSE\_STARTUP\_TIMEOUT}, \hyperpage{185}
+    \subitem {HSE\_VALUE}, \hyperpage{185}
+    \subitem {HSI\_VALUE}, \hyperpage{186}
+    \subitem {INSTRUCTION\_CACHE\_ENABLE}, \hyperpage{186}
+    \subitem {LSE\_STARTUP\_TIMEOUT}, \hyperpage{186}
+    \subitem {LSE\_VALUE}, \hyperpage{186}
+    \subitem {LSI\_VALUE}, \hyperpage{186}
+    \subitem {MAC\_ADDR0}, \hyperpage{186}
+    \subitem {MAC\_ADDR1}, \hyperpage{187}
+    \subitem {MAC\_ADDR2}, \hyperpage{187}
+    \subitem {MAC\_ADDR3}, \hyperpage{187}
+    \subitem {MAC\_ADDR4}, \hyperpage{187}
+    \subitem {MAC\_ADDR5}, \hyperpage{187}
+    \subitem {PHY\_AUTONEGO\_COMPLETE}, \hyperpage{187}
+    \subitem {PHY\_AUTONEGOTIATION}, \hyperpage{187}
+    \subitem {PHY\_BCR}, \hyperpage{187}
+    \subitem {PHY\_BSR}, \hyperpage{187}
+    \subitem {PHY\_CONFIG\_DELAY}, \hyperpage{188}
+    \subitem {PHY\_DUPLEX\_STATUS}, \hyperpage{188}
+    \subitem {PHY\_FULLDUPLEX\_100M}, \hyperpage{188}
+    \subitem {PHY\_FULLDUPLEX\_10M}, \hyperpage{188}
+    \subitem {PHY\_HALFDUPLEX\_100M}, \hyperpage{188}
+    \subitem {PHY\_HALFDUPLEX\_10M}, \hyperpage{188}
+    \subitem {PHY\_ISOLATE}, \hyperpage{188}
+    \subitem {PHY\_JABBER\_DETECTION}, \hyperpage{189}
+    \subitem {PHY\_LINKED\_STATUS}, \hyperpage{189}
+    \subitem {PHY\_LOOPBACK}, \hyperpage{189}
+    \subitem {PHY\_POWERDOWN}, \hyperpage{189}
+    \subitem {PHY\_READ\_TO}, \hyperpage{189}
+    \subitem {PHY\_RESET}, \hyperpage{189}
+    \subitem {PHY\_RESET\_DELAY}, \hyperpage{189}
+    \subitem {PHY\_RESTART\_AUTONEGOTIATION}, \hyperpage{190}
+    \subitem {PHY\_SPEED\_STATUS}, \hyperpage{190}
+    \subitem {PHY\_SR}, \hyperpage{190}
+    \subitem {PHY\_WRITE\_TO}, \hyperpage{190}
+    \subitem {PREFETCH\_ENABLE}, \hyperpage{190}
+    \subitem {TICK\_INT\_PRIORITY}, \hyperpage{190}
+    \subitem {USE\_HAL\_ADC\_REGISTER\_CALLBACKS}, \hyperpage{190}
+    \subitem {USE\_HAL\_CAN\_REGISTER\_CALLBACKS}, \hyperpage{190}
+    \subitem {USE\_HAL\_CEC\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_CRYP\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_DAC\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_DCMI\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_DFSDM\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_DMA2D\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_DSI\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_ETH\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_FMPI2C\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_FMPSMBUS\_REGISTER\_CALLBACKS}, \hyperpage{191}
+    \subitem {USE\_HAL\_HASH\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_HCD\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_I2C\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_I2S\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_IRDA\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_LPTIM\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_LTDC\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_MMC\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_NAND\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_NOR\_REGISTER\_CALLBACKS}, \hyperpage{192}
+    \subitem {USE\_HAL\_PCCARD\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_PCD\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_QSPI\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_RNG\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_RTC\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_SAI\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_SD\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_SDRAM\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_SMARTCARD\_REGISTER\_CALLBACKS}, 
+		\hyperpage{193}
+    \subitem {USE\_HAL\_SMBUS\_REGISTER\_CALLBACKS}, \hyperpage{193}
+    \subitem {USE\_HAL\_SPDIFRX\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_SPI\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_SRAM\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_TIM\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_UART\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_USART\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_HAL\_WWDG\_REGISTER\_CALLBACKS}, \hyperpage{194}
+    \subitem {USE\_RTOS}, \hyperpage{194}
+    \subitem {USE\_SPI\_CRC}, \hyperpage{194}
+    \subitem {VDD\_VALUE}, \hyperpage{194}
+  \item {stm32f4xx\_hal\_msp.c}, \hyperpage{211}
+    \subitem {HAL\_MspInit}, \hyperpage{212}
+    \subitem {HAL\_SPI\_MspDeInit}, \hyperpage{212}
+    \subitem {HAL\_SPI\_MspInit}, \hyperpage{213}
+    \subitem {HAL\_UART\_MspDeInit}, \hyperpage{213}
+    \subitem {HAL\_UART\_MspInit}, \hyperpage{213}
+  \item {stm32f4xx\_it.c}, \hyperpage{214}
+    \subitem {BusFault\_Handler}, \hyperpage{215}
+    \subitem {DebugMon\_Handler}, \hyperpage{215}
+    \subitem {HardFault\_Handler}, \hyperpage{215}
+    \subitem {MemManage\_Handler}, \hyperpage{215}
+    \subitem {NMI\_Handler}, \hyperpage{215}
+    \subitem {PendSV\_Handler}, \hyperpage{215}
+    \subitem {SVC\_Handler}, \hyperpage{216}
+    \subitem {SysTick\_Handler}, \hyperpage{216}
+    \subitem {UsageFault\_Handler}, \hyperpage{216}
+  \item {stm32f4xx\_it.h}, \hyperpage{200}
+    \subitem {BusFault\_Handler}, \hyperpage{201}
+    \subitem {DebugMon\_Handler}, \hyperpage{201}
+    \subitem {HardFault\_Handler}, \hyperpage{201}
+    \subitem {MemManage\_Handler}, \hyperpage{201}
+    \subitem {NMI\_Handler}, \hyperpage{201}
+    \subitem {PendSV\_Handler}, \hyperpage{201}
+    \subitem {SVC\_Handler}, \hyperpage{202}
+    \subitem {SysTick\_Handler}, \hyperpage{202}
+    \subitem {UsageFault\_Handler}, \hyperpage{202}
+  \item {Stm32f4xx\_system}, \hyperpage{134}
+  \item {STM32F4xx\_System\_Private\_Defines}, \hyperpage{135}
+  \item {STM32F4xx\_System\_Private\_FunctionPrototypes}, 
+		\hyperpage{137}
+  \item {STM32F4xx\_System\_Private\_Functions}, \hyperpage{137}
+    \subitem {SystemCoreClockUpdate}, \hyperpage{138}
+    \subitem {SystemInit}, \hyperpage{139}
+  \item {STM32F4xx\_System\_Private\_Includes}, \hyperpage{134}
+    \subitem {HSE\_VALUE}, \hyperpage{135}
+    \subitem {HSI\_VALUE}, \hyperpage{135}
+  \item {STM32F4xx\_System\_Private\_Macros}, \hyperpage{136}
+  \item {STM32F4xx\_System\_Private\_TypesDefinitions}, \hyperpage{135}
+  \item {STM32F4xx\_System\_Private\_Variables}, \hyperpage{136}
+    \subitem {AHBPrescTable}, \hyperpage{136}
+    \subitem {APBPrescTable}, \hyperpage{136}
+    \subitem {SystemCoreClock}, \hyperpage{136}
+  \item {stmdev\_ctx\_t}, \hyperpage{162}
+    \subitem {handle}, \hyperpage{162}
+    \subitem {mdelay}, \hyperpage{162}
+    \subitem {read\_reg}, \hyperpage{163}
+    \subitem {write\_reg}, \hyperpage{163}
+  \item {stmdev\_mdelay\_ptr}
+    \subitem {Interfaces\_Functions}, \hyperpage{131}
+  \item {stmdev\_read\_ptr}
+    \subitem {Interfaces\_Functions}, \hyperpage{131}
+  \item {stmdev\_write\_ptr}
+    \subitem {Interfaces\_Functions}, \hyperpage{131}
+  \item {SVC\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{216}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{202}
+  \item {syscalls.c}, \hyperpage{216}
+    \subitem {\_\_attribute\_\_}, \hyperpage{218}
+    \subitem {\_\_io\_getchar}, \hyperpage{218}
+    \subitem {\_\_io\_putchar}, \hyperpage{218}
+    \subitem {\_close}, \hyperpage{218}
+    \subitem {\_execve}, \hyperpage{218}
+    \subitem {\_exit}, \hyperpage{219}
+    \subitem {\_fork}, \hyperpage{219}
+    \subitem {\_fstat}, \hyperpage{219}
+    \subitem {\_getpid}, \hyperpage{219}
+    \subitem {\_isatty}, \hyperpage{219}
+    \subitem {\_kill}, \hyperpage{219}
+    \subitem {\_link}, \hyperpage{220}
+    \subitem {\_lseek}, \hyperpage{220}
+    \subitem {\_open}, \hyperpage{220}
+    \subitem {\_stat}, \hyperpage{220}
+    \subitem {\_times}, \hyperpage{220}
+    \subitem {\_unlink}, \hyperpage{220}
+    \subitem {\_wait}, \hyperpage{221}
+    \subitem {environ}, \hyperpage{221}
+    \subitem {initialise\_monitor\_handles}, \hyperpage{221}
+  \item {sysmem.c}, \hyperpage{221}
+    \subitem {\_sbrk}, \hyperpage{222}
+  \item {system\_stm32f4xx.c}, \hyperpage{223}
+  \item {SystemClock\_Config}
+    \subitem {main.c}, \hyperpage{210}
+  \item {SystemCoreClock}
+    \subitem {STM32F4xx\_System\_Private\_Variables}, \hyperpage{136}
+  \item {SystemCoreClockUpdate}
+    \subitem {STM32F4xx\_System\_Private\_Functions}, \hyperpage{138}
+  \item {SystemInit}
+    \subitem {STM32F4xx\_System\_Private\_Functions}, \hyperpage{139}
+  \item {SysTick\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{216}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{202}
+
+  \indexspace
+
+  \item {thsx}
+    \subitem {i3g4250d\_int1\_tsh\_xh\_t}, \hyperpage{153}
+    \subitem {i3g4250d\_int1\_tsh\_xl\_t}, \hyperpage{154}
+  \item {thsy}
+    \subitem {i3g4250d\_int1\_tsh\_yh\_t}, \hyperpage{154}
+    \subitem {i3g4250d\_int1\_tsh\_yl\_t}, \hyperpage{155}
+  \item {thsz}
+    \subitem {i3g4250d\_int1\_tsh\_zh\_t}, \hyperpage{155}
+    \subitem {i3g4250d\_int1\_tsh\_zl\_t}, \hyperpage{156}
+  \item {TICK\_INT\_PRIORITY}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+
+  \indexspace
+
+  \item {ucf\_line\_t}, \hyperpage{163}
+    \subitem {address}, \hyperpage{163}
+    \subitem {data}, \hyperpage{163}
+  \item {UsageFault\_Handler}
+    \subitem {stm32f4xx\_it.c}, \hyperpage{216}
+    \subitem {stm32f4xx\_it.h}, \hyperpage{202}
+  \item {USE\_HAL\_ADC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {USE\_HAL\_CAN\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{190}
+  \item {USE\_HAL\_CEC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_CRYP\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_DAC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_DCMI\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_DFSDM\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_DMA2D\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_DSI\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_ETH\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_FMPI2C\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_FMPSMBUS\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{191}
+  \item {USE\_HAL\_HASH\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_HCD\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_I2C\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_I2S\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_IRDA\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_LPTIM\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_LTDC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_MMC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_NAND\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_NOR\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{192}
+  \item {USE\_HAL\_PCCARD\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_PCD\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_QSPI\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_RNG\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_RTC\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SAI\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SD\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SDRAM\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SMARTCARD\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SMBUS\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{193}
+  \item {USE\_HAL\_SPDIFRX\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_SPI\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_SRAM\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_TIM\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_UART\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_USART\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_HAL\_WWDG\_REGISTER\_CALLBACKS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_RTOS}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+  \item {USE\_SPI\_CRC}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+
+  \indexspace
+
+  \item {VDD\_VALUE}
+    \subitem {stm32f4xx\_hal\_conf.h}, \hyperpage{194}
+
+  \indexspace
+
+  \item {wait}
+    \subitem {i3g4250d\_int1\_duration\_t}, \hyperpage{150}
+  \item {write\_reg}
+    \subitem {stmdev\_ctx\_t}, \hyperpage{163}
+  \item {wtm}
+    \subitem {i3g4250d\_fifo\_ctrl\_reg\_t}, \hyperpage{148}
+    \subitem {i3g4250d\_fifo\_src\_reg\_t}, \hyperpage{149}
+
+  \indexspace
+
+  \item {xda}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{161}
+  \item {xh}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {xhie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{149}
+  \item {xl}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {xlie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{150}
+
+  \indexspace
+
+  \item {yda}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{161}
+  \item {yh}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {yhie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{150}
+  \item {yl}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {ylie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{150}
+  \item {yor}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{161}
+
+  \indexspace
+
+  \item {zda}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{162}
+  \item {zh}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {zhie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{150}
+  \item {zl}
+    \subitem {i3g4250d\_int1\_src\_t}, \hyperpage{152}
+  \item {zlie}
+    \subitem {i3g4250d\_int1\_cfg\_t}, \hyperpage{150}
+  \item {zor}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{162}
+  \item {zyxda}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{162}
+  \item {zyxor}
+    \subitem {i3g4250d\_status\_reg\_t}, \hyperpage{162}
+
+\end{theindex}

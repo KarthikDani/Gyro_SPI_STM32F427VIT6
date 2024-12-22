@@ -1,0 +1,290 @@
+\doxysubsection{I3\+G4250\+D\+\_\+common}
+\hypertarget{group__I3G4250D__common}{}\label{group__I3G4250D__common}\index{I3G4250D\_common@{I3G4250D\_common}}
+
+
+This section groups common useful functions.  
+
+
+Collaboration diagram for I3\+G4250\+D\+\_\+common\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{group__I3G4250D__common}
+\end{center}
+\end{figure}
+\doxysubsubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218}{i3g4250d\+\_\+boot\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Reboot memory content. Reload the calibration parameters.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530}{i3g4250d\+\_\+boot\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t val)
+\begin{DoxyCompactList}\small\item\em Reboot memory content. Reload the calibration parameters.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea}{i3g4250d\+\_\+data\+\_\+format\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Big/\+Little Endian data selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d}{i3g4250d\+\_\+data\+\_\+format\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Big/\+Little Endian data selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0}{i3g4250d\+\_\+device\+\_\+id\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}buff)
+\begin{DoxyCompactList}\small\item\em Device Who amI.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17}{i3g4250d\+\_\+self\+\_\+test\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor self-\/test enable. \mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc}{i3g4250d\+\_\+self\+\_\+test\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em Angular rate sensor self-\/test enable. \mbox{[}set\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This section groups common useful functions. 
+
+
+
+\doxysubsubsection{Function Documentation}
+\Hypertarget{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218}\label{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_boot\_get@{i3g4250d\_boot\_get}}
+\index{i3g4250d\_boot\_get@{i3g4250d\_boot\_get}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_boot\_get()}{i3g4250d\_boot\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+boot\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Reboot memory content. Reload the calibration parameters.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of boot in reg CTRL\+\_\+\+REG5.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg5__t_a0cb411fc48285af2d1c4f8b84b35cb33}{i3g4250d\+\_\+ctrl\+\_\+reg5\+\_\+t\+::boot}}, \mbox{\hyperlink{group__I3G4250D_gad9479d95a9024b86070bf35d415394dc}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG5}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530}\label{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_boot\_set@{i3g4250d\_boot\_set}}
+\index{i3g4250d\_boot\_set@{i3g4250d\_boot\_set}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_boot\_set()}{i3g4250d\_boot\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+boot\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t}]{val }\end{DoxyParamCaption})}
+
+
+
+Reboot memory content. Reload the calibration parameters.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of boot in reg CTRL\+\_\+\+REG5. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg5__t_a0cb411fc48285af2d1c4f8b84b35cb33}{i3g4250d\+\_\+ctrl\+\_\+reg5\+\_\+t\+::boot}}, \mbox{\hyperlink{group__I3G4250D_gad9479d95a9024b86070bf35d415394dc}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG5}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea}\label{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_data\_format\_get@{i3g4250d\_data\_format\_get}}
+\index{i3g4250d\_data\_format\_get@{i3g4250d\_data\_format\_get}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_data\_format\_get()}{i3g4250d\_data\_format\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+data\+\_\+format\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Big/\+Little Endian data selection.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of "{}ble"{} in reg CTRL\+\_\+\+REG4.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_a0988f3bffabd43346fa916399e1b4140}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::ble}}, \mbox{\hyperlink{group__I3G4250D_ggae6f4731624ed08be33d8ea9fd4e53488a9056d74ddc94319eb40b879bc7fa7371}{I3\+G4250\+D\+\_\+\+AUX\+\_\+\+LSB\+\_\+\+AT\+\_\+\+LOW\+\_\+\+ADD}}, \mbox{\hyperlink{group__I3G4250D_ggae6f4731624ed08be33d8ea9fd4e53488aeb8579c8d6b671984e4a771644c6fd81}{I3\+G4250\+D\+\_\+\+AUX\+\_\+\+MSB\+\_\+\+AT\+\_\+\+LOW\+\_\+\+ADD}}, \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d}\label{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_data\_format\_set@{i3g4250d\_data\_format\_set}}
+\index{i3g4250d\_data\_format\_set@{i3g4250d\_data\_format\_set}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_data\_format\_set()}{i3g4250d\_data\_format\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+data\+\_\+format\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_gae6f4731624ed08be33d8ea9fd4e53488}{i3g4250d\+\_\+ble\+\_\+t}}}]{val }\end{DoxyParamCaption})}
+
+
+
+Big/\+Little Endian data selection.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of "{}ble"{} in reg CTRL\+\_\+\+REG4. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_a0988f3bffabd43346fa916399e1b4140}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::ble}}, \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0}\label{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_device\_id\_get@{i3g4250d\_device\_id\_get}}
+\index{i3g4250d\_device\_id\_get@{i3g4250d\_device\_id\_get}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_device\_id\_get()}{i3g4250d\_device\_id\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+device\+\_\+id\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{buff }\end{DoxyParamCaption})}
+
+
+
+Device Who amI.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em buff} & Buffer that stores the data read.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{group__I3G4250D_ga9e144dedb00f08bbcb8e8c07159afa80}{I3\+G4250\+D\+\_\+\+WHO\+\_\+\+AM\+\_\+I}}.
+
+
+
+Referenced by \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17}\label{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_self\_test\_get@{i3g4250d\_self\_test\_get}}
+\index{i3g4250d\_self\_test\_get@{i3g4250d\_self\_test\_get}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_self\_test\_get()}{i3g4250d\_self\_test\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+self\+\_\+test\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+Angular rate sensor self-\/test enable. \mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of st in reg CTRL\+\_\+\+REG4.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, \mbox{\hyperlink{group__I3G4250D_gga992df062f0206f4368c73dcbb236dfb2a5fa39af074b41ac7699f7e789baed74d}{I3\+G4250\+D\+\_\+\+GY\+\_\+\+ST\+\_\+\+DISABLE}}, \mbox{\hyperlink{group__I3G4250D_gga992df062f0206f4368c73dcbb236dfb2a34dbb46fb0bf6d01db0fbd99ae0dfef8}{I3\+G4250\+D\+\_\+\+GY\+\_\+\+ST\+\_\+\+NEGATIVE}}, \mbox{\hyperlink{group__I3G4250D_gga992df062f0206f4368c73dcbb236dfb2ab15adce1b2ddab6f394b41f87f9c882d}{I3\+G4250\+D\+\_\+\+GY\+\_\+\+ST\+\_\+\+POSITIVE}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_abb6784eda14472aa64a68790a7a278d1}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::st}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc}\label{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc} 
+\index{I3G4250D\_common@{I3G4250D\_common}!i3g4250d\_self\_test\_set@{i3g4250d\_self\_test\_set}}
+\index{i3g4250d\_self\_test\_set@{i3g4250d\_self\_test\_set}!I3G4250D\_common@{I3G4250D\_common}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_self\_test\_set()}{i3g4250d\_self\_test\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+self\+\_\+test\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga992df062f0206f4368c73dcbb236dfb2}{i3g4250d\+\_\+st\+\_\+t}}}]{val }\end{DoxyParamCaption})}
+
+
+
+Angular rate sensor self-\/test enable. \mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & change the values of st in reg CTRL\+\_\+\+REG4. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_abb6784eda14472aa64a68790a7a278d1}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::st}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc_cgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,5 @@
+<map id="i3g4250d_status_reg_get" name="i3g4250d_status_reg_get">
+<area shape="rect" id="Node000001" title="The STATUS_REG register is read by the primary interface.[get]." alt="" coords="5,5,191,31"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="239,5,385,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,15,225,15,225,21,191,21"/>
+</map>

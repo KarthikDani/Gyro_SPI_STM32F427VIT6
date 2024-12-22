@@ -1,0 +1,7 @@
+<map id="i3g4250d_data_format_set" name="i3g4250d_data_format_set">
+<area shape="rect" id="Node000001" title="Big/Little Endian data selection.[set]." alt="" coords="5,31,201,56"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="251,5,398,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,29,237,25,238,31,202,35"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="249,55,400,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,51,236,55,235,60,202,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="i3g4250d_reg.h" name="i3g4250d_reg.h">
+<area shape="rect" id="Node000001" title="This file contains all the functions prototypes for the i3g4250d_reg.c driver." alt="" coords="63,5,186,31"/>
+<area shape="rect" id="Node000002" href="$i3g4250d__reg_8c.html" title="I3G4250D driver file." alt="" coords="5,79,127,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,43,78,80,73,77,104,40"/>
+<area shape="rect" id="Node000003" href="$main_8c.html" title=": Main program body" alt="" coords="151,79,218,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,40,177,77,173,80,141,43"/>
+</map>

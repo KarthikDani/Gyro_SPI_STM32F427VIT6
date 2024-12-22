@@ -1,0 +1,5 @@
+<map id="i3g4250d_fifo_ovr_flag_get" name="i3g4250d_fifo_ovr_flag_get">
+<area shape="rect" id="Node000001" title="Overrun bit status.[get]." alt="" coords="5,5,203,31"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="251,5,397,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="203,15,236,15,236,21,203,21"/>
+</map>

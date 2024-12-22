@@ -1,0 +1,106 @@
+\doxysubsection{I3\+G4250\+D\+\_\+\+Interfaces\+\_\+\+Functions}
+\hypertarget{group__I3G4250D__Interfaces__Functions}{}\label{group__I3G4250D__Interfaces__Functions}\index{I3G4250D\_Interfaces\_Functions@{I3G4250D\_Interfaces\_Functions}}
+
+
+This section provide a set of functions used to read and write a generic register of the device. MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error.  
+
+
+Collaboration diagram for I3\+G4250\+D\+\_\+\+Interfaces\+\_\+\+Functions\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{group__I3G4250D__Interfaces__Functions}
+\end{center}
+\end{figure}
+\doxysubsubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t reg, uint8\+\_\+t \texorpdfstring{$\ast$}{*}data, uint16\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em Read generic device register. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, uint8\+\_\+t reg, uint8\+\_\+t \texorpdfstring{$\ast$}{*}data, uint16\+\_\+t len)
+\begin{DoxyCompactList}\small\item\em Write generic device register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This section provide a set of functions used to read and write a generic register of the device. MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error. 
+
+
+
+\doxysubsubsection{Function Documentation}
+\Hypertarget{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}\label{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24} 
+\index{I3G4250D\_Interfaces\_Functions@{I3G4250D\_Interfaces\_Functions}!i3g4250d\_read\_reg@{i3g4250d\_read\_reg}}
+\index{i3g4250d\_read\_reg@{i3g4250d\_read\_reg}!I3G4250D\_Interfaces\_Functions@{I3G4250D\_Interfaces\_Functions}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_read\_reg()}{i3g4250d\_read\_reg()}}
+{\footnotesize\ttfamily int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} i3g4250d\+\_\+read\+\_\+reg (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t}]{reg,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{data,  }\item[{uint16\+\_\+t}]{len }\end{DoxyParamCaption})}
+
+
+
+Read generic device register. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & read / write interface definitions(ptr) \\
+\hline
+{\em reg} & register to read \\
+\hline
+{\em data} & pointer to buffer that store the data read(ptr) \\
+\hline
+{\em len} & number of consecutive register to read \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structstmdev__ctx__t_ac6505025bc53574ad09d46597f8475a6}{stmdev\+\_\+ctx\+\_\+t\+::handle}}, and \mbox{\hyperlink{structstmdev__ctx__t_a1e181319243a3922d5a31c246faddbe2}{stmdev\+\_\+ctx\+\_\+t\+::read\+\_\+reg}}.
+
+
+
+Referenced by \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7}{i3g4250d\+\_\+angular\+\_\+rate\+\_\+raw\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__common_ga2d14a99682e08bae5e3c6223f814c218}{i3g4250d\+\_\+boot\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530}{i3g4250d\+\_\+boot\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_ga9201ea0a8355686214106e67c3e71dea}{i3g4250d\+\_\+data\+\_\+format\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d}{i3g4250d\+\_\+data\+\_\+format\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga62657d981cb94cc9b6a54537bf9bd7a1}{i3g4250d\+\_\+data\+\_\+rate\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga29886bedfc8905a4f25faac0e7d80ff0}{i3g4250d\+\_\+data\+\_\+rate\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0}{i3g4250d\+\_\+device\+\_\+id\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga6c6e67dd455c1bb470219077a23908b6}{i3g4250d\+\_\+fifo\+\_\+data\+\_\+level\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gab71f40b6d7ec83cfb6b025784353bd2b}{i3g4250d\+\_\+fifo\+\_\+empty\+\_\+flag\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga56dd169ff7ab30a53634123119f9f3c5}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gab2385541e15a589f33e9be945717f52d}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga999989bc630bc9857f4215f6850e1929}{i3g4250d\+\_\+fifo\+\_\+ovr\+\_\+flag\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga4fd37250b71b45433082b3bf59cb81dd}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga7195038a6241347adb31e9cec789a34f}{i3g4250d\+\_\+fifo\+\_\+wtm\+\_\+flag\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_gad37c250f58882d1b4f9251a14a1874b9}{i3g4250d\+\_\+filter\+\_\+path\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga6900ccfe006fb3f39c785ffa86af3182}{i3g4250d\+\_\+filter\+\_\+path\+\_\+internal\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga2c7d1c02b1054772bc08f4a5b180842e}{i3g4250d\+\_\+filter\+\_\+path\+\_\+internal\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga2ea110a179c89deb62a3259f114caa45}{i3g4250d\+\_\+filter\+\_\+path\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_gaeeb0da1558d8b80f80b1e4ba457401f6}{i3g4250d\+\_\+flag\+\_\+data\+\_\+ready\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_gafe3b90ea6d80bdb2e20e19107e2ae2e5}{i3g4250d\+\_\+full\+\_\+scale\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga7fe73d8e7381a481de34b8ed71151ed8}{i3g4250d\+\_\+full\+\_\+scale\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaeb52e883603ed75a2dea22154a88f5b2}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaea8b6f487aa9fce5f846ced462dfd4d4}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaadf50a28c6dd93ab26da0ec757285484}{i3g4250d\+\_\+hp\+\_\+mode\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaeaff13e513b0d5fae8c345b32a38f86d}{i3g4250d\+\_\+hp\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga435f8ea69f16810fabc6f42e6bde126a}{i3g4250d\+\_\+hp\+\_\+reference\+\_\+value\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga43403a37a9d67ba1f6fe6ea0b8cd6d3b}{i3g4250d\+\_\+hp\+\_\+reference\+\_\+value\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_gab2d6875def6dbbb0d0d689da3dda4566}{i3g4250d\+\_\+int\+\_\+notification\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2265a50634bb7dce96c71fb0441c7c30}{i3g4250d\+\_\+int\+\_\+notification\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___ga513b2930c5e8ba261894ee447867f1af}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+conf\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___gaec84beea71a110155623ae48c8bb05a3}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+dur\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___gaf82741c7a2a4bae445c18de51ea321d8}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+dur\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gadff74c911569f950e9bc92d7bfe20dbe}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+mode\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___ga2a8ec8a3686fb06a3674cde6ee4d5325}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gab905fa50ba5352f4e0273a0d5f15502c}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+src\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___gaba653a00934ca72581874ff6d44e2d55}{i3g4250d\+\_\+int\+\_\+x\+\_\+threshold\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___ga94c24e19af6940e3c9f515c8274a9439}{i3g4250d\+\_\+int\+\_\+x\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___ga32a25100d210765150b6a09c74776c35}{i3g4250d\+\_\+int\+\_\+y\+\_\+threshold\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___ga3b4b2b76ac91d965fbf1eea4306a2b92}{i3g4250d\+\_\+int\+\_\+y\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gaf9bd3ab0d04cf94af8403d4000d3657f}{i3g4250d\+\_\+int\+\_\+z\+\_\+threshold\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D___gae7f577861360ef7118020362341faa57}{i3g4250d\+\_\+int\+\_\+z\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga3be17bd9c9634af201fdeb7f13396ba6}{i3g4250d\+\_\+lp\+\_\+bandwidth\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaf5263e7bba3641c61dac6143d9efe35c}{i3g4250d\+\_\+lp\+\_\+bandwidth\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga39d87e94d4cad80fbebbe32c3249833c}{i3g4250d\+\_\+pin\+\_\+int1\+\_\+route\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga1fc0f51251f0aca07cbc87f2629e11ed}{i3g4250d\+\_\+pin\+\_\+int1\+\_\+route\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_gabe23c682c8c73bf3c7fb9d758ef59215}{i3g4250d\+\_\+pin\+\_\+int2\+\_\+route\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga7d4a18917cd293a5bdea6fd6aa4fabf5}{i3g4250d\+\_\+pin\+\_\+int2\+\_\+route\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga8844001118627853277ddef29b9cb63e}{i3g4250d\+\_\+pin\+\_\+mode\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga56f73effeab04dcce8ab183c4e677401}{i3g4250d\+\_\+pin\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2bd7e9a62dce01fdb307b7884d99fb52}{i3g4250d\+\_\+pin\+\_\+polarity\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2a93c506cd48ceb2de5775c1c2425f49}{i3g4250d\+\_\+pin\+\_\+polarity\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_gaf3c7ee1935bd4fb5532659c3551faf17}{i3g4250d\+\_\+self\+\_\+test\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc}{i3g4250d\+\_\+self\+\_\+test\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga6383bef083ca3c02d0378cd3b87e3aa0}{i3g4250d\+\_\+status\+\_\+reg\+\_\+get()}}, and \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga507229658e578848525b16fbe5c50d4d}{i3g4250d\+\_\+temperature\+\_\+raw\+\_\+get()}}.
+
+\Hypertarget{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}\label{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68} 
+\index{I3G4250D\_Interfaces\_Functions@{I3G4250D\_Interfaces\_Functions}!i3g4250d\_write\_reg@{i3g4250d\_write\_reg}}
+\index{i3g4250d\_write\_reg@{i3g4250d\_write\_reg}!I3G4250D\_Interfaces\_Functions@{I3G4250D\_Interfaces\_Functions}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_write\_reg()}{i3g4250d\_write\_reg()}}
+{\footnotesize\ttfamily int32\+\_\+t \mbox{\hyperlink{group__I3G4250D_ga5181eb756a197a06d1c4ed1f40a065bc}{\+\_\+\+\_\+weak}} i3g4250d\+\_\+write\+\_\+reg (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{uint8\+\_\+t}]{reg,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{data,  }\item[{uint16\+\_\+t}]{len }\end{DoxyParamCaption})}
+
+
+
+Write generic device register. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & read / write interface definitions(ptr) \\
+\hline
+{\em reg} & register to write \\
+\hline
+{\em data} & pointer to data to write in register reg(ptr) \\
+\hline
+{\em len} & number of consecutive register to write \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{structstmdev__ctx__t_ac6505025bc53574ad09d46597f8475a6}{stmdev\+\_\+ctx\+\_\+t\+::handle}}, and \mbox{\hyperlink{structstmdev__ctx__t_a99b7a22f79ae58c659c50231257650e5}{stmdev\+\_\+ctx\+\_\+t\+::write\+\_\+reg}}.
+
+
+
+Referenced by \mbox{\hyperlink{group__I3G4250D__common_gabbca5badbd3847850f211f1348eae530}{i3g4250d\+\_\+boot\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_ga892505b84103db66fd3a7b1e39312a2d}{i3g4250d\+\_\+data\+\_\+format\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga29886bedfc8905a4f25faac0e7d80ff0}{i3g4250d\+\_\+data\+\_\+rate\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gac40d1d2d303d15e62c51dbef4ae0c5b1}{i3g4250d\+\_\+fifo\+\_\+enable\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_ga01e9a505286ac5e40743cfaff130ba68}{i3g4250d\+\_\+fifo\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__fifo_gad8e7c2cd5951012152b11605628b4711}{i3g4250d\+\_\+fifo\+\_\+watermark\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga2c7d1c02b1054772bc08f4a5b180842e}{i3g4250d\+\_\+filter\+\_\+path\+\_\+internal\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga2ea110a179c89deb62a3259f114caa45}{i3g4250d\+\_\+filter\+\_\+path\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga7fe73d8e7381a481de34b8ed71151ed8}{i3g4250d\+\_\+full\+\_\+scale\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaea8b6f487aa9fce5f846ced462dfd4d4}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaeaff13e513b0d5fae8c345b32a38f86d}{i3g4250d\+\_\+hp\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga43403a37a9d67ba1f6fe6ea0b8cd6d3b}{i3g4250d\+\_\+hp\+\_\+reference\+\_\+value\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2265a50634bb7dce96c71fb0441c7c30}{i3g4250d\+\_\+int\+\_\+notification\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gae270b297a390a75c7e03b709472837b8}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+conf\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gaf82741c7a2a4bae445c18de51ea321d8}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+dur\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___ga2a8ec8a3686fb06a3674cde6ee4d5325}{i3g4250d\+\_\+int\+\_\+on\+\_\+threshold\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___ga94c24e19af6940e3c9f515c8274a9439}{i3g4250d\+\_\+int\+\_\+x\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___ga3b4b2b76ac91d965fbf1eea4306a2b92}{i3g4250d\+\_\+int\+\_\+y\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D___gae7f577861360ef7118020362341faa57}{i3g4250d\+\_\+int\+\_\+z\+\_\+threshold\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaf5263e7bba3641c61dac6143d9efe35c}{i3g4250d\+\_\+lp\+\_\+bandwidth\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga1fc0f51251f0aca07cbc87f2629e11ed}{i3g4250d\+\_\+pin\+\_\+int1\+\_\+route\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga7d4a18917cd293a5bdea6fd6aa4fabf5}{i3g4250d\+\_\+pin\+\_\+int2\+\_\+route\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga56f73effeab04dcce8ab183c4e677401}{i3g4250d\+\_\+pin\+\_\+mode\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__interrupt__pins_ga2a93c506cd48ceb2de5775c1c2425f49}{i3g4250d\+\_\+pin\+\_\+polarity\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_ga567c029a464057a9b5d31d8667ea26dc}{i3g4250d\+\_\+self\+\_\+test\+\_\+set()}}, and \mbox{\hyperlink{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+set()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,5 @@
+<map id="i3g4250d_device_id_get" name="i3g4250d_device_id_get">
+<area shape="rect" id="Node000001" title="Device Who amI.[get]." alt="" coords="5,5,184,31"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="232,5,379,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,15,218,15,218,21,184,21"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="i3g4250d_boot_set" name="i3g4250d_boot_set">
+<area shape="rect" id="Node000001" title="Reboot memory content. Reload the calibration parameters.[set]." alt="" coords="5,31,151,56"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="201,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,31,186,27,187,32,151,37"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="199,55,349,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,50,185,54,185,59,150,55"/>
+</map>

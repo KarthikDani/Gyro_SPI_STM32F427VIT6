@@ -1,0 +1,5 @@
+<map id="i3g4250d_fifo_data_level_get" name="i3g4250d_fifo_data_level_get">
+<area shape="rect" id="Node000001" title="FIFO stored data level[get]." alt="" coords="5,5,152,45"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="200,13,347,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,23,186,23,186,28,152,28"/>
+</map>

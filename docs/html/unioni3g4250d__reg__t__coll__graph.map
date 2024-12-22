@@ -1,0 +1,41 @@
+<map id="i3g4250d_reg_t" name="i3g4250d_reg_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="331,474,453,499"/>
+<area shape="rect" id="Node000002" href="$structi3g4250d__ctrl__reg1__t.html" title=" " alt="" coords="19,14,178,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,15,223,17,254,24,283,36,309,54,331,87,348,136,362,197,373,262,387,389,393,473,387,474,382,389,368,263,357,198,343,138,326,90,305,58,280,40,252,29,222,23,191,20"/>
+<area shape="rect" id="Node000003" href="$structi3g4250d__ctrl__reg2__t.html" title=" " alt="" coords="19,63,178,89"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,68,223,71,254,79,283,91,309,110,328,139,344,181,369,289,385,399,392,474,387,474,380,400,364,290,339,183,323,141,305,114,280,96,252,84,222,77,191,73"/>
+<area shape="rect" id="Node000004" href="$structi3g4250d__ctrl__reg3__t.html" title=" " alt="" coords="19,113,178,138"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,126,261,135,289,142,308,153,326,178,342,215,367,309,383,406,392,473,387,474,378,407,362,310,337,216,322,180,305,157,287,147,260,140,192,131"/>
+<area shape="rect" id="Node000005" href="$structi3g4250d__ctrl__reg4__t.html" title=" " alt="" coords="19,162,178,187"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="192,166,223,170,253,177,282,188,308,206,336,237,357,272,372,311,383,350,393,423,394,474,389,474,387,424,377,352,367,313,352,275,332,240,305,210,280,193,252,182,222,175,192,172"/>
+<area shape="rect" id="Node000006" href="$structi3g4250d__ctrl__reg5__t.html" title=" " alt="" coords="19,211,178,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="192,221,253,233,282,246,308,263,331,287,350,315,375,375,388,432,393,473,387,474,382,433,369,377,345,317,327,290,305,267,280,250,251,238,191,226"/>
+<area shape="rect" id="Node000007" href="$structi3g4250d__reference__t.html" title=" " alt="" coords="17,261,180,286"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="194,278,253,293,282,306,308,323,342,359,366,402,382,442,390,473,385,475,377,444,361,404,337,363,305,327,280,311,252,298,193,283"/>
+<area shape="rect" id="Node000008" href="$structi3g4250d__status__reg__t.html" title=" " alt="" coords="14,310,183,335"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="198,335,254,353,308,380,334,402,356,427,386,472,381,475,352,431,330,406,305,385,252,358,196,340"/>
+<area shape="rect" id="Node000009" href="$structi3g4250d__fifo__ctrl__reg__t.html" title=" " alt="" coords="29,360,168,400"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="182,391,245,407,308,430,345,450,376,471,373,476,342,455,306,434,243,412,181,397"/>
+<area shape="rect" id="Node000010" href="$structi3g4250d__fifo__src__reg__t.html" title=" " alt="" coords="11,425,187,450"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="200,447,307,464,341,471,340,477,306,469,200,452"/>
+<area shape="rect" id="Node000011" href="$structi3g4250d__int1__cfg__t.html" title=" " alt="" coords="22,474,175,499"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="190,484,331,484,331,489,190,489"/>
+<area shape="rect" id="Node000012" href="$structi3g4250d__int1__src__t.html" title=" " alt="" coords="23,523,175,549"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="188,523,306,504,340,497,341,502,307,509,189,528"/>
+<area shape="rect" id="Node000013" href="$structi3g4250d__int1__tsh__xh__t.html" title=" " alt="" coords="11,573,187,598"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="200,570,253,558,306,540,344,519,374,497,377,501,346,524,308,545,255,563,201,575"/>
+<area shape="rect" id="Node000014" href="$structi3g4250d__int1__tsh__xl__t.html" title=" " alt="" coords="13,622,185,647"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="198,624,253,611,305,587,331,567,353,542,382,498,386,501,357,546,335,571,308,592,255,616,199,629"/>
+<area shape="rect" id="Node000015" href="$structi3g4250d__int1__tsh__yh__t.html" title=" " alt="" coords="11,671,187,697"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="199,679,255,666,281,655,305,641,337,607,361,567,376,529,385,499,390,500,381,530,365,570,341,611,308,645,283,660,256,671,201,684"/>
+<area shape="rect" id="Node000016" href="$structi3g4250d__int1__tsh__yl__t.html" title=" " alt="" coords="13,721,185,746"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="198,734,254,723,281,712,305,697,327,675,344,650,369,593,382,539,387,499,392,500,387,540,374,595,349,652,331,678,308,701,284,717,256,728,199,739"/>
+<area shape="rect" id="Node000017" href="$structi3g4250d__int1__tsh__zh__t.html" title=" " alt="" coords="11,770,186,795"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="200,788,256,778,282,768,305,753,331,725,351,691,366,655,376,618,387,549,388,500,394,500,392,549,382,619,371,657,356,694,335,728,308,757,284,773,257,784,200,793"/>
+<area shape="rect" id="Node000018" href="$structi3g4250d__int1__tsh__zl__t.html" title=" " alt="" coords="13,819,184,845"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="198,841,227,839,255,833,281,823,305,807,322,785,337,750,361,659,378,565,387,499,392,500,383,566,366,660,342,752,326,788,308,811,284,828,256,838,227,844,198,846"/>
+<area shape="rect" id="Node000019" href="$structi3g4250d__int1__duration__t.html" title=" " alt="" coords="5,869,192,894"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="181,892,214,892,247,888,278,878,305,861,324,834,340,793,354,741,365,685,380,575,387,499,392,500,385,575,370,686,359,743,345,794,329,837,309,865,280,883,248,893,214,898,181,898"/>
+<area shape="rect" id="Node000020" href="$structbitwise__t.html" title=" " alt="" coords="58,918,139,943"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="154,940,191,944,232,942,271,933,305,913,326,882,344,834,358,775,369,710,382,584,387,500,393,500,388,584,374,711,363,776,349,836,331,884,308,917,273,938,232,948,191,949,153,945"/>
+</map>

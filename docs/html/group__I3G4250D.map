@@ -1,0 +1,17 @@
+<map id="I3G4250D" name="I3G4250D">
+<area shape="rect" id="Node000012" href="$group__Endianness.html" title=" " alt="" coords="194,5,285,31"/>
+<area shape="rect" id="Node000001" title="This file provides a set of functions needed to drive the i3g4250d enhanced inertial module." alt="" coords="5,343,92,368"/>
+<area shape="rect" id="Node000010" href="$group__I3G4250D__.html" title="This section groups all the functions that manage the event generation on threshold." alt="" coords="155,55,324,80"/>
+<area shape="rect" id="Node000005" href="$group__I3G4250D__Dataoutput.html" title="This section groups all the data output functions." alt="" coords="156,104,323,129"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html" title="This section provide a set of functions used to read and write a generic register of the device...." alt="" coords="160,154,319,194"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Sensitivity.html" title="These functions convert raw&#45;data into engineering units." alt="" coords="158,219,321,244"/>
+<area shape="rect" id="Node000006" href="$group__I3G4250D__common.html" title="This section groups common useful functions." alt="" coords="164,268,315,293"/>
+<area shape="rect" id="Node000004" href="$group__I3G4250D__data__generation.html" title="This section groups all the functions concerning data generation." alt="" coords="140,317,339,343"/>
+<area shape="rect" id="Node000011" href="$group__I3G4250D__fifo.html" title="This section group all the functions concerning the fifo usage." alt="" coords="182,367,297,392"/>
+<area shape="rect" id="Node000007" href="$group__I3G4250D__filters.html" title="This section group all the functions concerning the filters configuration." alt="" coords="174,416,305,441"/>
+<area shape="rect" id="Node000009" href="$group__I3G4250D__interrupt__pins.html" title="This section groups all the functions that manage interrupt pins." alt="" coords="148,465,331,491"/>
+<area shape="rect" id="Node000008" href="$group__I3G4250D__serial__interface.html" title="This section groups all the functions concerning main serial interface management." alt="" coords="142,515,337,540"/>
+<area shape="rect" id="Node000015" href="$group__LSM9DS1__Register__Union.html" title="This union group all the registers having a bit&#45;field description. This union is useful but it&#39;s not ..." alt="" coords="145,564,334,589"/>
+<area shape="rect" id="Node000013" href="$group__STMicroelectronics.html" title=" " alt="" coords="153,613,326,639"/>
+<area shape="rect" id="Node000014" href="$group__i3g4250d__Infos.html" title=" " alt="" coords="179,663,300,688"/>
+</map>

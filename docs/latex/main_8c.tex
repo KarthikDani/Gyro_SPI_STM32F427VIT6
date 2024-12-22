@@ -1,0 +1,211 @@
+\doxysection{main.\+c File Reference}
+\hypertarget{main_8c}{}\label{main_8c}\index{main.c@{main.c}}
+
+
+\+: Main program body  
+
+
+{\ttfamily \#include "{}main.\+h"{}}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include "{}i3g4250d\+\_\+reg.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f4xx\+\_\+hal.\+h"{}}\newline
+Include dependency graph for main.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8c_a5ab03916aa2a1644de4a108701c277f1}{BOOT\+\_\+\+TIME}}~10
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em The application entry point. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8c_a70af21c671abfcc773614a9a4f63d920}{System\+Clock\+\_\+\+Config}} (void)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+SPI\+\_\+\+Handle\+Type\+Def \mbox{\hyperlink{main_8c_a9c6222bae4d0328dd843ae099623b40b}{hspi1}}
+\item 
+UART\+\_\+\+Handle\+Type\+Def \mbox{\hyperlink{main_8c_aa9479c261d65eecedd3d9582f7f0f89c}{huart2}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\+: Main program body 
+
+\begin{DoxyAttention}{Attention}
+
+\end{DoxyAttention}
+Copyright (c) 2024 STMicroelectronics. All rights reserved.
+
+This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-\/\+IS. 
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{main_8c_a5ab03916aa2a1644de4a108701c277f1}\label{main_8c_a5ab03916aa2a1644de4a108701c277f1} 
+\index{main.c@{main.c}!BOOT\_TIME@{BOOT\_TIME}}
+\index{BOOT\_TIME@{BOOT\_TIME}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{BOOT\_TIME}{BOOT\_TIME}}
+{\footnotesize\ttfamily \#define BOOT\+\_\+\+TIME~10}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+The application entry point. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em int} & \\
+\hline
+\end{DoxyRetVals}
+System Clock Configuration 
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+Configure the main internal regulator output voltage
+
+Initializes the RCC Oscillators according to the specified parameters in the RCC\+\_\+\+Osc\+Init\+Type\+Def structure.
+
+Activate the Over-\/\+Drive mode
+
+Initializes the CPU, AHB and APB buses clocks
+
+SPI1 Initialization Function 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+USART2 Initialization Function 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+GPIO Initialization Function 
+\begin{DoxyParams}{Parameters}
+{\em None} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+Writes data to a specified register of the Gyro.
+
+Sends register address followed by the data to be written. The SPI write operation is executed by setting RW bit to {\ttfamily 0} as per the datasheet. 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em handle} & SPI handle to use for communication. \\
+\hline
+\mbox{\texttt{ in}}  & {\em reg} & Register address to which data needs to be written. \\
+\hline
+\mbox{\texttt{ in}}  & {\em bufp} & Pointer to the data buffer to be written. \\
+\hline
+\mbox{\texttt{ in}}  & {\em len} & Length of the data buffer in bytes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int32\+\_\+t 0 on success, error code otherwise.
+\end{DoxyReturn}
+Reads data from a specified register of the Gyro device.
+
+This function communicates with the device over SPI, sending the register address and then receiving the data from the device. The SPI read operation is executed by setting the RW bit to {\ttfamily 1} as per the datasheet. The CS pin is used to select the device, and SPI transactions are done with the SPI handle.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em handle} & SPI handle to use for communication. \\
+\hline
+\mbox{\texttt{ in}}  & {\em reg} & Register address from which data needs to be read. \\
+\hline
+\mbox{\texttt{ out}}  & {\em bufp} & Pointer to the buffer where the read data will be stored. \\
+\hline
+\mbox{\texttt{ in}}  & {\em len} & Length of the data buffer in bytes to be read.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int32\+\_\+t 0 on success, error code otherwise.
+\end{DoxyReturn}
+This function is executed in case of error occurrence. 
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{main_8c_a5ab03916aa2a1644de4a108701c277f1}{BOOT\+\_\+\+TIME}}, \mbox{\hyperlink{main_8h_a1730ffe1e560465665eb47d9264826f9}{Error\+\_\+\+Handler()}}, \mbox{\hyperlink{main_8h_ad3468bad06570ede9de2b35647accf76}{GYRO\+\_\+\+CS\+\_\+\+OUT\+\_\+\+GPIO\+\_\+\+Port}}, \mbox{\hyperlink{main_8h_aaadc7695f20da8d2716f9cac44d66a6d}{GYRO\+\_\+\+CS\+\_\+\+OUT\+\_\+\+Pin}}, \mbox{\hyperlink{structstmdev__ctx__t_ac6505025bc53574ad09d46597f8475a6}{stmdev\+\_\+ctx\+\_\+t\+::handle}}, \mbox{\hyperlink{main_8c_a9c6222bae4d0328dd843ae099623b40b}{hspi1}}, \mbox{\hyperlink{main_8c_aa9479c261d65eecedd3d9582f7f0f89c}{huart2}}, \mbox{\hyperlink{group__I3G4250D__Dataoutput_ga0adb7c94292e8cbd803c32fc43f43be7}{i3g4250d\+\_\+angular\+\_\+rate\+\_\+raw\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_ga29886bedfc8905a4f25faac0e7d80ff0}{i3g4250d\+\_\+data\+\_\+rate\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__common_ga721c05a4e2e2a4f9c339003e215376a0}{i3g4250d\+\_\+device\+\_\+id\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__filters_ga2ea110a179c89deb62a3259f114caa45}{i3g4250d\+\_\+filter\+\_\+path\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D__data__generation_gaeeb0da1558d8b80f80b1e4ba457401f6}{i3g4250d\+\_\+flag\+\_\+data\+\_\+ready\+\_\+get()}}, \mbox{\hyperlink{group__I3G4250D__Sensitivity_ga4697828e6eca707bafed9493ed8bdb54}{i3g4250d\+\_\+from\+\_\+fs245dps\+\_\+to\+\_\+mdps()}}, \mbox{\hyperlink{group__I3G4250D__filters_gaea8b6f487aa9fce5f846ced462dfd4d4}{i3g4250d\+\_\+hp\+\_\+bandwidth\+\_\+set()}}, \mbox{\hyperlink{group__I3G4250D_ggaec0290986ac9f120f128e5f5e6eca968aff4f5173de74a4b217cf6ce57fc5fcfd}{I3\+G4250\+D\+\_\+\+HP\+\_\+\+LEVEL\+\_\+3}}, \mbox{\hyperlink{group__i3g4250d__Infos_ga6f7205359937459f73a8a784248c4b85}{I3\+G4250\+D\+\_\+\+ID}}, \mbox{\hyperlink{group__I3G4250D_gga57e648d6a438817a717976b9240087f4afebbe17b4b4ceb1539c4fb01ada86059}{I3\+G4250\+D\+\_\+\+LPF1\+\_\+\+HP\+\_\+\+ON\+\_\+\+OUT}}, \mbox{\hyperlink{group__I3G4250D_ggaabfac918fec082f8b4e3abd2a860854aa16a5abe5104f257096f10ea31e4e5fbd}{I3\+G4250\+D\+\_\+\+ODR\+\_\+100\+Hz}}, \mbox{\hyperlink{structstmdev__ctx__t_a83f67a90a785e471d4cd1c5a67a37a4c}{stmdev\+\_\+ctx\+\_\+t\+::mdelay}}, \mbox{\hyperlink{structstmdev__ctx__t_a1e181319243a3922d5a31c246faddbe2}{stmdev\+\_\+ctx\+\_\+t\+::read\+\_\+reg}}, \mbox{\hyperlink{main_8c_a70af21c671abfcc773614a9a4f63d920}{System\+Clock\+\_\+\+Config()}}, and \mbox{\hyperlink{structstmdev__ctx__t_a99b7a22f79ae58c659c50231257650e5}{stmdev\+\_\+ctx\+\_\+t\+::write\+\_\+reg}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{main_8c_a70af21c671abfcc773614a9a4f63d920}\label{main_8c_a70af21c671abfcc773614a9a4f63d920} 
+\index{main.c@{main.c}!SystemClock\_Config@{SystemClock\_Config}}
+\index{SystemClock\_Config@{SystemClock\_Config}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{SystemClock\_Config()}{SystemClock\_Config()}}
+{\footnotesize\ttfamily void System\+Clock\+\_\+\+Config (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Referenced by \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main()}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{main_8c_a70af21c671abfcc773614a9a4f63d920_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{main_8c_a9c6222bae4d0328dd843ae099623b40b}\label{main_8c_a9c6222bae4d0328dd843ae099623b40b} 
+\index{main.c@{main.c}!hspi1@{hspi1}}
+\index{hspi1@{hspi1}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{hspi1}{hspi1}}
+{\footnotesize\ttfamily SPI\+\_\+\+Handle\+Type\+Def hspi1}
+
+
+
+Referenced by \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main()}}.
+
+\Hypertarget{main_8c_aa9479c261d65eecedd3d9582f7f0f89c}\label{main_8c_aa9479c261d65eecedd3d9582f7f0f89c} 
+\index{main.c@{main.c}!huart2@{huart2}}
+\index{huart2@{huart2}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{huart2}{huart2}}
+{\footnotesize\ttfamily UART\+\_\+\+Handle\+Type\+Def huart2}
+
+
+
+Referenced by \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main()}}.
+

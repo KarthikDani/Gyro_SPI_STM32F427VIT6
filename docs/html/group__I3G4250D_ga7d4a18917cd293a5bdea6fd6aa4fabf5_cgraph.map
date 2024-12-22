@@ -1,0 +1,7 @@
+<map id="i3g4250d_pin_int2_route_set" name="i3g4250d_pin_int2_route_set">
+<area shape="rect" id="Node000001" title="Select the signal that need to route on int2 pad.[set]." alt="" coords="5,31,215,56"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="265,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,29,250,25,251,30,215,34"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="263,55,413,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,52,249,55,248,61,214,57"/>
+</map>

@@ -1,0 +1,55 @@
+\doxysubsubsection{Interfaces\+\_\+\+Functions}
+\hypertarget{group__Interfaces__Functions}{}\label{group__Interfaces__Functions}\index{Interfaces\_Functions@{Interfaces\_Functions}}
+
+
+This section provide a set of functions used to read and write a generic register of the device. MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error.  
+
+
+Collaboration diagram for Interfaces\+\_\+\+Functions\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__Interfaces__Functions}
+\end{center}
+\end{figure}
+\doxysubsubsubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void(\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__Interfaces__Functions_ga0eb3d88e56077a8339829318c3d7b6ed}{stmdev\+\_\+mdelay\+\_\+ptr}}) (uint32\+\_\+t millisec)
+\item 
+typedef int32\+\_\+t(\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__Interfaces__Functions_ga4c9361a3b8f50a3ecdf2485a90fb6e59}{stmdev\+\_\+read\+\_\+ptr}}) (void \texorpdfstring{$\ast$}{*}, uint8\+\_\+t, uint8\+\_\+t \texorpdfstring{$\ast$}{*}, uint16\+\_\+t)
+\item 
+typedef int32\+\_\+t(\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group__Interfaces__Functions_gac31b1bbcf4f05c705bb77de8a03ebfcf}{stmdev\+\_\+write\+\_\+ptr}}) (void \texorpdfstring{$\ast$}{*}, uint8\+\_\+t, const uint8\+\_\+t \texorpdfstring{$\ast$}{*}, uint16\+\_\+t)
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsubsection{Detailed Description}
+This section provide a set of functions used to read and write a generic register of the device. MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error. 
+
+
+
+\doxysubsubsubsection{Typedef Documentation}
+\Hypertarget{group__Interfaces__Functions_ga0eb3d88e56077a8339829318c3d7b6ed}\label{group__Interfaces__Functions_ga0eb3d88e56077a8339829318c3d7b6ed} 
+\index{Interfaces\_Functions@{Interfaces\_Functions}!stmdev\_mdelay\_ptr@{stmdev\_mdelay\_ptr}}
+\index{stmdev\_mdelay\_ptr@{stmdev\_mdelay\_ptr}!Interfaces\_Functions@{Interfaces\_Functions}}
+\doxysubsubsubsubsection{\texorpdfstring{stmdev\_mdelay\_ptr}{stmdev\_mdelay\_ptr}}
+{\footnotesize\ttfamily typedef void(\texorpdfstring{$\ast$}{*} stmdev\+\_\+mdelay\+\_\+ptr) (uint32\+\_\+t millisec)}
+
+\Hypertarget{group__Interfaces__Functions_ga4c9361a3b8f50a3ecdf2485a90fb6e59}\label{group__Interfaces__Functions_ga4c9361a3b8f50a3ecdf2485a90fb6e59} 
+\index{Interfaces\_Functions@{Interfaces\_Functions}!stmdev\_read\_ptr@{stmdev\_read\_ptr}}
+\index{stmdev\_read\_ptr@{stmdev\_read\_ptr}!Interfaces\_Functions@{Interfaces\_Functions}}
+\doxysubsubsubsubsection{\texorpdfstring{stmdev\_read\_ptr}{stmdev\_read\_ptr}}
+{\footnotesize\ttfamily typedef int32\+\_\+t(\texorpdfstring{$\ast$}{*} stmdev\+\_\+read\+\_\+ptr) (void \texorpdfstring{$\ast$}{*}, uint8\+\_\+t, uint8\+\_\+t \texorpdfstring{$\ast$}{*}, uint16\+\_\+t)}
+
+\Hypertarget{group__Interfaces__Functions_gac31b1bbcf4f05c705bb77de8a03ebfcf}\label{group__Interfaces__Functions_gac31b1bbcf4f05c705bb77de8a03ebfcf} 
+\index{Interfaces\_Functions@{Interfaces\_Functions}!stmdev\_write\_ptr@{stmdev\_write\_ptr}}
+\index{stmdev\_write\_ptr@{stmdev\_write\_ptr}!Interfaces\_Functions@{Interfaces\_Functions}}
+\doxysubsubsubsubsection{\texorpdfstring{stmdev\_write\_ptr}{stmdev\_write\_ptr}}
+{\footnotesize\ttfamily typedef int32\+\_\+t(\texorpdfstring{$\ast$}{*} stmdev\+\_\+write\+\_\+ptr) (void \texorpdfstring{$\ast$}{*}, uint8\+\_\+t, const uint8\+\_\+t \texorpdfstring{$\ast$}{*}, uint16\+\_\+t)}
+

@@ -1,0 +1,98 @@
+\doxysubsection{I3\+G4250\+D\+\_\+serial\+\_\+interface}
+\hypertarget{group__I3G4250D__serial__interface}{}\label{group__I3G4250D__serial__interface}\index{I3G4250D\_serial\_interface@{I3G4250D\_serial\_interface}}
+
+
+This section groups all the functions concerning main serial interface management.  
+
+
+Collaboration diagram for I3\+G4250\+D\+\_\+serial\+\_\+interface\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{group__I3G4250D__serial__interface}
+\end{center}
+\end{figure}
+\doxysubsubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+get}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}} \texorpdfstring{$\ast$}{*}val)
+\begin{DoxyCompactList}\small\item\em SPI Serial Interface Mode selection.\mbox{[}get\mbox{]}. \end{DoxyCompactList}\item 
+int32\+\_\+t \mbox{\hyperlink{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2}{i3g4250d\+\_\+spi\+\_\+mode\+\_\+set}} (const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}ctx, \mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}} val)
+\begin{DoxyCompactList}\small\item\em SPI Serial Interface Mode selection.\mbox{[}set\mbox{]}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Detailed Description}
+This section groups all the functions concerning main serial interface management. 
+
+
+
+\doxysubsubsection{Function Documentation}
+\Hypertarget{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e}\label{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e} 
+\index{I3G4250D\_serial\_interface@{I3G4250D\_serial\_interface}!i3g4250d\_spi\_mode\_get@{i3g4250d\_spi\_mode\_get}}
+\index{i3g4250d\_spi\_mode\_get@{i3g4250d\_spi\_mode\_get}!I3G4250D\_serial\_interface@{I3G4250D\_serial\_interface}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_spi\_mode\_get()}{i3g4250d\_spi\_mode\_get()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+spi\+\_\+mode\+\_\+get (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{val }\end{DoxyParamCaption})}
+
+
+
+SPI Serial Interface Mode selection.\mbox{[}get\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Get the values of sim in reg CTRL\+\_\+\+REG4.(ptr) \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, \mbox{\hyperlink{group__I3G4250D_gga7760af1b4d37ded4d340fa6148972efea4c64841684ed31f07d64f8db12118935}{I3\+G4250\+D\+\_\+\+SPI\+\_\+3\+\_\+\+WIRE}}, \mbox{\hyperlink{group__I3G4250D_gga7760af1b4d37ded4d340fa6148972efea070014ef3a96e21dfd7df631256b7bf8}{I3\+G4250\+D\+\_\+\+SPI\+\_\+4\+\_\+\+WIRE}}, and \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_a38da6c0ce2c4708efdf6629e8aaa6af6}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::sim}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__serial__interface_gac8d9efd76d460a8786c113f06b6b976e_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2}\label{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2} 
+\index{I3G4250D\_serial\_interface@{I3G4250D\_serial\_interface}!i3g4250d\_spi\_mode\_set@{i3g4250d\_spi\_mode\_set}}
+\index{i3g4250d\_spi\_mode\_set@{i3g4250d\_spi\_mode\_set}!I3G4250D\_serial\_interface@{I3G4250D\_serial\_interface}}
+\doxysubsubsubsection{\texorpdfstring{i3g4250d\_spi\_mode\_set()}{i3g4250d\_spi\_mode\_set()}}
+{\footnotesize\ttfamily int32\+\_\+t i3g4250d\+\_\+spi\+\_\+mode\+\_\+set (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structstmdev__ctx__t}{stmdev\+\_\+ctx\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ctx,  }\item[{\mbox{\hyperlink{group__I3G4250D_ga7760af1b4d37ded4d340fa6148972efe}{i3g4250d\+\_\+sim\+\_\+t}}}]{val }\end{DoxyParamCaption})}
+
+
+
+SPI Serial Interface Mode selection.\mbox{[}set\mbox{]}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ctx} & Read / write interface definitions.(ptr) \\
+\hline
+{\em val} & Change the values of sim in reg CTRL\+\_\+\+REG4 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Interface} & status (MANDATORY\+: return 0 -\/\texorpdfstring{$>$}{>} no Error) \\
+\hline
+\end{DoxyRetVals}
+
+
+References \mbox{\hyperlink{group__I3G4250D_ga6d1079b7bfac56c26979a34a7f5cecad}{I3\+G4250\+D\+\_\+\+CTRL\+\_\+\+REG4}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gafa070e7259e3084d066b441c76520b24}{i3g4250d\+\_\+read\+\_\+reg()}}, \mbox{\hyperlink{group__I3G4250D__Interfaces__Functions_gab0ba0cd72bb40e23fafaeff1ea1acc68}{i3g4250d\+\_\+write\+\_\+reg()}}, and \mbox{\hyperlink{structi3g4250d__ctrl__reg4__t_a38da6c0ce2c4708efdf6629e8aaa6af6}{i3g4250d\+\_\+ctrl\+\_\+reg4\+\_\+t\+::sim}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{group__I3G4250D__serial__interface_gadc9bc18523a8430ef7c69c02e3f02dd2_cgraph}
+\end{center}
+\end{figure}

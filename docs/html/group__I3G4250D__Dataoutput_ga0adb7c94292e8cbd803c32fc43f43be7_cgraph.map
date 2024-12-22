@@ -1,0 +1,5 @@
+<map id="i3g4250d_angular_rate_raw_get" name="i3g4250d_angular_rate_raw_get">
+<area shape="rect" id="Node000001" title="Angular rate sensor. The value is expressed as a 16&#45;bit word in two’s complement.[get]." alt="" coords="5,5,176,45"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="224,13,371,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,23,210,23,210,28,176,28"/>
+</map>

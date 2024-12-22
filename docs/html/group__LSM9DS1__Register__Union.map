@@ -1,0 +1,4 @@
+<map id="LSM9DS1_Register_Union" name="LSM9DS1_Register_Union">
+<area shape="rect" id="Node000002" href="$group__I3G4250D.html" title="This file provides a set of functions needed to drive the i3g4250d enhanced inertial module." alt="" coords="5,5,92,31"/>
+<area shape="rect" id="Node000001" title="This union group all the registers having a bit&#45;field description. This union is useful but it&#39;s not ..." alt="" coords="140,5,329,31"/>
+</map>

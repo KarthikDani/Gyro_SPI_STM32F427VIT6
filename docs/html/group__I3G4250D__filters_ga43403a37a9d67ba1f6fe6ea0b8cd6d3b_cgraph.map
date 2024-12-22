@@ -1,0 +1,7 @@
+<map id="i3g4250d_hp_reference_value_set" name="i3g4250d_hp_reference_value_set">
+<area shape="rect" id="Node000001" title="Reference value for high&#45;pass filter.[set]." alt="" coords="5,23,180,63"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__Interfaces__Functions.html#gafa070e7259e3084d066b441c76520b24" title="Read generic device register." alt="" coords="230,5,377,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,30,216,26,216,31,181,35"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__Interfaces__Functions.html#gab0ba0cd72bb40e23fafaeff1ea1acc68" title="Write generic device register." alt="" coords="228,55,379,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,51,214,55,214,60,180,56"/>
+</map>

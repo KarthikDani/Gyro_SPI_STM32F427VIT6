@@ -1,0 +1,59 @@
+<map id="i3g4250d_write_reg" name="i3g4250d_write_reg">
+<area shape="rect" id="Node000001" title="Write generic device register." alt="" coords="372,659,523,684"/>
+<area shape="rect" id="Node000002" href="$group__I3G4250D__common.html#gabbca5badbd3847850f211f1348eae530" title="Reboot memory content. Reload the calibration parameters.[set]." alt="" coords="143,5,289,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,645,433,517,411,336,396,243,376,159,351,90,337,64,322,44,306,32,288,25,290,20,309,28,326,40,342,61,356,88,381,157,401,242,417,335,438,517,447,644"/>
+<area shape="rect" id="Node000003" href="$group__I3G4250D__common.html#ga892505b84103db66fd3a7b1e39312a2d" title="Big/Little Endian data selection.[set]." alt="" coords="118,55,314,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="441,645,431,526,408,360,392,275,373,198,349,135,336,111,322,93,308,82,311,78,326,89,341,108,354,133,378,196,397,274,414,359,436,526,447,644"/>
+<area shape="rect" id="Node000004" href="$group__I3G4250D__data__generation.html#ga29886bedfc8905a4f25faac0e7d80ff0" title="Accelerometer data rate selection.[set]." alt="" coords="127,104,305,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="441,645,429,536,405,384,389,307,370,237,347,180,322,143,304,130,307,125,326,139,352,178,375,236,394,306,410,383,434,535,446,645"/>
+<area shape="rect" id="Node000006" href="$group__I3G4250D__fifo.html#gac40d1d2d303d15e62c51dbef4ae0c5b1" title="FIFOenable.[set]." alt="" coords="122,153,310,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="440,645,426,544,402,408,385,339,367,276,345,226,322,192,307,181,310,177,326,188,350,223,372,275,391,338,407,407,432,544,446,644"/>
+<area shape="rect" id="Node000007" href="$group__I3G4250D__fifo.html#ga01e9a505286ac5e40743cfaff130ba68" title="FIFO mode selection.[set]." alt="" coords="125,203,307,228"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="444,645,443,566,438,513,428,457,413,398,391,341,361,287,322,241,305,230,308,225,326,237,366,284,396,338,418,396,433,455,443,513,448,565,450,645"/>
+<area shape="rect" id="Node000008" href="$group__I3G4250D__fifo.html#gad8e7c2cd5951012152b11605628b4711" title="FIFO watermark level selection.[set]." alt="" coords="109,252,323,277"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="443,645,438,574,421,479,406,428,385,378,357,332,322,292,304,280,307,275,326,288,362,329,390,376,411,426,426,477,444,574,449,645"/>
+<area shape="rect" id="Node000009" href="$group__I3G4250D__filters.html#ga2c7d1c02b1054772bc08f4a5b180842e" title="Interrupt generator selection path.[set]." alt="" coords="139,302,293,342"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="441,645,432,586,411,508,396,467,376,426,352,389,322,356,292,338,295,333,326,352,356,386,381,424,401,464,416,506,437,585,446,644"/>
+<area shape="rect" id="Node000010" href="$group__I3G4250D__filters.html#ga2ea110a179c89deb62a3259f114caa45" title="Out/FIFO selection path. [set]." alt="" coords="125,367,307,392"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="439,646,428,594,406,529,372,462,349,431,322,405,304,394,307,390,326,401,353,428,376,459,411,527,433,593,445,644"/>
+<area shape="rect" id="Node000011" href="$group__I3G4250D__data__generation.html#ga7fe73d8e7381a481de34b8ed71151ed8" title="Gyroscope full&#45;scale selection.[set]." alt="" coords="127,416,305,441"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="437,646,422,604,399,551,366,499,346,475,322,455,303,444,305,439,326,450,349,471,370,496,404,549,427,602,442,645"/>
+<area shape="rect" id="Node000012" href="$group__I3G4250D__filters.html#gaea8b6f487aa9fce5f846ced462dfd4d4" title="High&#45;pass filter bandwidth selection.[set]." alt="" coords="113,465,319,491"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="433,647,416,614,391,575,360,536,323,504,301,493,303,488,325,500,364,533,396,572,420,611,437,645"/>
+<area shape="rect" id="Node000013" href="$group__I3G4250D__filters.html#gaeaff13e513b0d5fae8c345b32a38f86d" title="High&#45;pass filter mode selection. [set]." alt="" coords="128,515,304,540"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="426,649,382,601,354,576,323,555,293,543,295,538,325,550,357,572,386,597,430,646"/>
+<area shape="rect" id="Node000014" href="$group__I3G4250D__filters.html#ga43403a37a9d67ba1f6fe6ea0b8cd6d3b" title="Reference value for high&#45;pass filter.[set]." alt="" coords="129,565,303,605"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="407,655,323,619,288,607,290,602,325,614,409,650"/>
+<area shape="rect" id="Node000015" href="$group__I3G4250D__interrupt__pins.html#ga2265a50634bb7dce96c71fb0441c7c30" title="Latched/pulsed interrupt.[set]." alt="" coords="109,629,323,655"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="358,663,316,657,317,652,359,657"/>
+<area shape="rect" id="Node000016" href="$group__I3G4250D__.html#gae270b297a390a75c7e03b709472837b8" title="Configure the interrupt threshold sign.[set]." alt="" coords="117,679,315,719"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="359,685,315,690,315,685,358,679"/>
+<area shape="rect" id="Node000017" href="$group__I3G4250D__.html#gaf82741c7a2a4bae445c18de51ea321d8" title="Durationvalue.[set]." alt="" coords="117,743,315,783"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="412,693,325,734,291,746,289,741,323,729,410,688"/>
+<area shape="rect" id="Node000018" href="$group__I3G4250D__.html#ga2a8ec8a3686fb06a3674cde6ee4d5325" title="AND/OR combination of interrupt events.[set]." alt="" coords="117,807,315,847"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="431,697,387,748,358,774,325,798,301,810,298,805,323,793,354,770,383,744,427,693"/>
+<area shape="rect" id="Node000019" href="$group__I3G4250D__.html#ga94c24e19af6940e3c9f515c8274a9439" title="Interrupt threshold on X.[set]." alt="" coords="108,872,324,897"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="439,698,423,735,399,779,366,824,326,862,301,874,299,870,322,857,362,820,394,777,418,733,434,696"/>
+<area shape="rect" id="Node000020" href="$group__I3G4250D__.html#ga3b4b2b76ac91d965fbf1eea4306a2b92" title="Interrupt threshold on Y.[set]." alt="" coords="108,921,324,947"/>
+<area shape="poly" id="edge21_Node000001_Node000020" title=" " alt="" coords="443,698,429,744,406,802,372,861,351,888,326,911,303,924,301,919,322,907,347,884,368,858,402,800,424,743,438,697"/>
+<area shape="rect" id="Node000021" href="$group__I3G4250D__.html#gae7f577861360ef7118020362341faa57" title="Interrupt threshold on Z.[set]." alt="" coords="109,971,323,996"/>
+<area shape="poly" id="edge22_Node000001_Node000021" title=" " alt="" coords="445,698,435,753,413,824,398,861,378,898,354,931,326,960,305,973,302,968,322,956,350,928,374,895,393,859,408,822,429,752,440,697"/>
+<area shape="rect" id="Node000022" href="$group__I3G4250D__filters.html#gaf5263e7bba3641c61dac6143d9efe35c" title="Lowpass filter bandwidth selection.[set]." alt="" coords="115,1020,317,1045"/>
+<area shape="poly" id="edge23_Node000001_Node000022" title=" " alt="" coords="447,698,440,761,420,845,405,890,384,934,358,974,326,1009,306,1022,303,1018,322,1005,354,971,380,931,400,888,415,844,434,760,442,697"/>
+<area shape="rect" id="Node000023" href="$group__I3G4250D__interrupt__pins.html#ga1fc0f51251f0aca07cbc87f2629e11ed" title="Select the signal that need to route on int1 pad.[set]." alt="" coords="111,1069,321,1095"/>
+<area shape="poly" id="edge24_Node000001_Node000023" title=" " alt="" coords="449,698,444,770,427,867,411,919,390,970,362,1017,326,1059,307,1071,304,1067,322,1055,357,1014,385,968,406,917,422,866,439,769,443,698"/>
+<area shape="rect" id="Node000024" href="$group__I3G4250D__interrupt__pins.html#ga7d4a18917cd293a5bdea6fd6aa4fabf5" title="Select the signal that need to route on int2 pad.[set]." alt="" coords="111,1119,321,1144"/>
+<area shape="poly" id="edge25_Node000001_Node000024" title=" " alt="" coords="450,698,448,778,443,831,433,888,418,948,396,1006,366,1060,326,1108,308,1121,305,1116,322,1104,361,1057,391,1004,413,946,428,887,437,830,443,777,444,698"/>
+<area shape="rect" id="Node000025" href="$group__I3G4250D__interrupt__pins.html#ga56f73effeab04dcce8ab183c4e677401" title="Push&#45;pull/open drain selection on interrupt pads.[set]." alt="" coords="126,1168,306,1193"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="446,698,432,799,407,937,391,1006,372,1070,350,1122,326,1157,308,1170,305,1166,322,1153,345,1119,367,1068,385,1005,402,935,426,798,440,697"/>
+<area shape="rect" id="Node000026" href="$group__I3G4250D__interrupt__pins.html#ga2a93c506cd48ceb2de5775c1c2425f49" title="Pin active&#45;high/low.[set]." alt="" coords="119,1217,313,1243"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="446,698,434,808,410,961,394,1038,375,1109,352,1167,326,1207,309,1219,305,1215,322,1203,347,1165,370,1107,389,1037,405,960,429,807,441,698"/>
+<area shape="rect" id="Node000027" href="$group__I3G4250D__common.html#ga567c029a464057a9b5d31d8667ea26dc" title="Angular rate sensor self&#45;test enable. [set]." alt="" coords="130,1267,302,1292"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="447,698,436,818,413,985,397,1070,378,1148,354,1212,341,1237,326,1256,304,1271,301,1267,322,1252,336,1234,349,1210,373,1147,392,1069,408,984,431,817,441,698"/>
+<area shape="rect" id="Node000028" href="$group__I3G4250D__serial__interface.html#gadc9bc18523a8430ef7c69c02e3f02dd2" title="SPI Serial Interface Mode selection.[set]." alt="" coords="127,1316,305,1341"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="447,699,438,827,417,1009,401,1102,381,1187,356,1257,342,1284,326,1305,307,1319,304,1315,322,1301,337,1282,351,1255,375,1186,395,1101,411,1008,432,826,442,698"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,367,60,392"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="116,137,110,143,88,168,70,198,57,230,48,262,39,323,36,366,31,366,33,322,43,261,52,228,66,195,83,165,106,139,113,133"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="111,382,60,382,60,377,111,377"/>
+<area shape="poly" id="edge13_Node000012_Node000005" title=" " alt="" coords="124,463,107,455,68,425,41,394,45,391,72,421,109,450,127,458"/>
+</map>
