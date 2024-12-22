@@ -3,7 +3,7 @@
 # Project details
 PROJECT_NAME           = "Gyro SPI with STM32F427VIT6 - ARTPART Assessment"
 PROJECT_BRIEF          = "Firmware Solution for Interfacing One of the Compatible and Industrial grade Gyro Sensor from ST Microelectronics with STM32F427VIT6 processor. As part of ARTPARK Assesment."
-PROJECT_NUMBER         = "1.0"
+PROJECT_NUMBER         = "2.0"
 OUTPUT_DIRECTORY       = ./docs
 QUIET                  = NO
 WARNINGS               = YES

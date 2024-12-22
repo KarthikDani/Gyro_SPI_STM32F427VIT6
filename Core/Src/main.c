@@ -153,7 +153,7 @@ int main(void)
 	  			  sizeof(tx_buffer),
 	  			  "Angular Rate [mdps]:%4.2f\t%4.2f\t%4.2f\r\n",
 	  			  angular_rate_mdps[0], angular_rate_mdps[1], angular_rate_mdps[2]);
-	  	  HAL_UART_Transmit(&huart2, tx_buffer, len, 1000);
+	  	  HAL_UART_Transmit(&huart2, tx_buffer, sizeof(tx_buffer), 1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
